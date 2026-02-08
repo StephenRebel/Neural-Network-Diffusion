@@ -365,6 +365,7 @@ class STL10_ViT(FullDataset): pass
 class STL10_ConvNeXt(FullDataset): pass
 class MNIST_CNNMedium(FullDataset): pass
 class SVHN_CNNMedium(FullDataset): pass
+class MNIST_MLP(FullDataset): pass
 
 
 
