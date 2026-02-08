@@ -9,7 +9,7 @@ from torch import optim
 from torch.optim import lr_scheduler
 from torch.utils.data import DataLoader
 from torchvision.transforms import v2
-from torchvision.datasets import CIFAR10 as Dataset
+from torchvision.datasets import MNIST as Dataset
 try:  # when name if main
     from model import Model
 except ImportError:
@@ -175,5 +175,5 @@ if __name__ == "__main__":
         pbar.set_postfix({'Loss': f'{loss:.3f}'})
         if ckpt_num >= config["total_save_number"]:
             break
-        
+
     print("Fine-tuning completed.")
