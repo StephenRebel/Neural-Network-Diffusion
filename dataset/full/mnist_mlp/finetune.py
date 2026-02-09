@@ -70,11 +70,14 @@ def get_data_loaders(config):
     test_loader = DataLoader(test_dataset, batch_size=config["batch_size"], shuffle=False,
                              num_workers=config["num_workers"], pin_memory=True)
     
+    return train_loader, test_loader
+    
 
 def get_optimizer_and_scheduler(model, config):
     trainable_params = model.parameters()
     optimizer = optim.AdamW(trainable_params, lr=config["learning_rate"], weight_decay=config["weight_decay"])
     scheduler = lr_scheduler.CosineAnnealingLR(optimizer, T_max=len(get_data_loaders(config)[0]), eta_min=config["save_learning_rate"])
+    
     return optimizer, scheduler
 
 
