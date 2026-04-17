@@ -1,4 +1,5 @@
 import sys, os
+import json
 root = os.sep + os.sep.join(__file__.split(os.sep)[1:__file__.split(os.sep).index("Neural-Network-Diffusion")+1])
 sys.path.append(root)
 os.chdir(root)
@@ -136,6 +137,8 @@ if __name__ == "__main__" and USE_WANDB and accelerator.is_main_process:
 print('==> Defining training..')
 
 def train_vae():
+    train_report = {"vae_progress": []}
+
     if not USE_WANDB:
         train_loss = 0
         this_steps = 0
@@ -160,12 +163,16 @@ def train_vae():
             this_steps += 1
             if this_steps % config["print_every"] == 0:
                 print('Loss: %.6f' % (train_loss/this_steps))
+                train_report["vae_progress"].append({"steps": batch_idx, "loss": train_loss/this_steps})
                 this_steps = 0
                 train_loss = 0
         if batch_idx >= config["vae_steps"]:
             break
+    return train_report
 
 def train():
+    train_report = {"pdiff_progress": []}
+
     if not USE_WANDB:
         train_loss = 0
         this_steps = 0
@@ -191,6 +198,7 @@ def train():
             this_steps += 1
             if this_steps % config["print_every"] == 0:
                 print('Loss: %.6f' % (train_loss/this_steps))
+                train_report["pdiff_progress"].append({"steps": batch_idx, "loss": train_loss/this_steps})
                 this_steps = 0
                 train_loss = 0
         if batch_idx % config["save_every"] == 0 and accelerator.is_main_process:
@@ -200,6 +208,8 @@ def train():
             generate(save_path=config["generated_path"], need_test=True)
         if batch_idx >= config["total_steps"]:
             break
+
+    return train_report
 
 def generate(save_path=config["generated_path"], need_test=True):
     print("\n==> Generating..")
@@ -220,9 +230,19 @@ def generate(save_path=config["generated_path"], need_test=True):
     return prediction
 
 if __name__ == '__main__':
-    train_vae()
+    train_report = {**config}
+
+    vae_report = train_vae()
+    train_report.update(vae_report)
     vae = accelerator.unwrap_model(vae)
-    train()
+
+    pdiff_report = train()
+    train_report.update(pdiff_report)
     del train_loader
+
+    # TODO: serialize config properly, also save under better name
+    with open("train_report.json", "w") as f:
+        json.dump(train_report, f, indent=2)
+
     print("Finished Training!")
     exit(0)

@@ -82,6 +82,17 @@ def train(config):
     test_loader = DataLoader(test_dataset, batch_size=config["batch_size"], shuffle=False,
                              num_workers=config["num_workers"], pin_memory=True)
     
+    train_report = {
+        **config,
+        "dataset_info": {
+            "name": "MNIST",
+            "num_classes": 10,
+            "num_train_samples": len(train_dataset),
+            "num_test_samples": len(test_dataset),
+        },
+        "train_progress": [],
+    }
+
     # Create Model
     model = Model().to(device)
 
@@ -123,12 +134,20 @@ def train(config):
         # Testing
         test_loss, acc, _, _ = test(model, test_loader, criterion, device, config)
         print(f"Epoch {epoch + 1} Test Loss: {test_loss:.3f} | Test Acc: {acc:.2%}")
+        train_report["train_progress"].append({
+            "epoch": epoch + 1,
+            "test_loss": test_loss,
+            "test_acc": acc
+        })
         if acc > best_acc:
             best_acc = acc
             torch.save(model.state_dict(), "best_model.pth")
             print(f"New best model saved with accuracy: {best_acc:.2%}")
 
     print(f"Best accuracy: {best_acc:.2%}")
+
+    with open("train_report.json", "w") as f:
+        json.dump(train_report, f, indent=2)
 
 
 def main():

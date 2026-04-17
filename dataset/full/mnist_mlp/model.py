@@ -7,12 +7,7 @@ class Model(nn.Module):
     def __init__(self):
         super().__init__()
         self.layer1 = nn.Sequential(
-            nn.Linear(784, 32),
-            nn.ReLU(),
-            nn.Dropout(0.1),
-        )
-        self.layer2 = nn.Sequential(
-            nn.Linear(32, 16),
+            nn.Linear(784, 16),
             nn.ReLU(),
             nn.Dropout(0.1),
         )
@@ -23,7 +18,6 @@ class Model(nn.Module):
     def forward(self, x):
         x = torch.flatten(x, start_dim=1)
         x = self.layer1(x)
-        x = self.layer2(x)
         x = self.head(x)
         return x
     
