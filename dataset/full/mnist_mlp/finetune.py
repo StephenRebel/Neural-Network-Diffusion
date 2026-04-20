@@ -144,6 +144,11 @@ optimizer, scheduler = get_optimizer_and_scheduler(model, config)
 
 
 if __name__ == "__main__":
+    finetune_report = {
+        "config": {**config},
+        "finetune_progress": []
+    }
+
     print("Initial test:")
     test(model, test_loader, device)
 
@@ -171,6 +176,7 @@ if __name__ == "__main__":
         # Save checkpoint at regular intervals
         if ((batch_idx + 1) % save_interval == 0 or batch_idx == total_batches - 1) and batch_idx > 0:
             loss, acc, _, _ = test(model, test_loader, device)
+            finetune_report["finetune_progress"].append({"steps": batch_idx, "loss": loss, "acc": acc})
             # loss, acc = 1., 1.
             save_checkpoint(model, ckpt_num, acc, config)
             ckpt_num += 1
@@ -178,5 +184,9 @@ if __name__ == "__main__":
         pbar.set_postfix({'Loss': f'{loss:.3f}'})
         if ckpt_num >= config["total_save_number"]:
             break
+
+    os.makedirs("./train_logs", exist_ok=True)
+    with open(os.path.join("./train_logs", "mlp_finetune_report.json"), "w") as f:
+        json.dump(finetune_report, f, indent=2)
 
     print("Fine-tuning completed.")

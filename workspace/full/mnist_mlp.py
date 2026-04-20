@@ -70,6 +70,52 @@ config = {
     "tag": os.path.basename(__file__)[:-3],
 }
 
+
+def serialize_reference(reference):
+    return {
+        "module": reference.__module__,
+        "name": reference.__qualname__,
+    }
+
+
+def build_experiment_report(config):
+    model_config = dict(config["model_config"])
+    model_config["sample_mode"] = serialize_reference(model_config["sample_mode"])
+    model_config["beta"] = list(model_config["beta"])
+
+    return {"config": {
+        "seed": config["seed"],
+        "tag": config["tag"],
+        "components": {
+            "model": serialize_reference(Model),
+            "vae": serialize_reference(VAE),
+            "sampler": serialize_reference(DDPMSampler),
+        },
+        "dataset": {
+            "reference": serialize_reference(config["dataset"]),
+            "category": getattr(config["dataset"], "category", None),
+            "generated_path": config["generated_path"],
+            "test_command": config["test_command"],
+        },
+        "sequence_length": config["sequence_length"],
+        "divide_slice_length": divide_slice_length,
+        "training": {
+            "batch_size": config["batch_size"],
+            "num_workers": config["num_workers"],
+            "total_steps": config["total_steps"],
+            "vae_steps": config["vae_steps"],
+            "learning_rate": config["learning_rate"],
+            "vae_learning_rate": config["vae_learning_rate"],
+            "weight_decay": config["weight_decay"],
+            "save_every": config["save_every"],
+            "print_every": config["print_every"],
+            "checkpoint_save_path": config["checkpoint_save_path"],
+            "test_batch_size": config["test_batch_size"],
+            "autocast": {"enabled": bool(config["autocast"](0))},
+        },
+        "model_config": model_config,
+    }}
+
 # Data
 divide_slice_length = 64
 print('==> Preparing data..')
@@ -171,7 +217,9 @@ def train_vae():
     return train_report
 
 def train():
-    train_report = {"pdiff_progress": []}
+    train_report = {
+        "pdiff_progress": [],
+    }
 
     if not USE_WANDB:
         train_loss = 0
@@ -205,7 +253,11 @@ def train():
             os.makedirs(config["checkpoint_save_path"], exist_ok=True)
             state = {"diffusion": accelerator.unwrap_model(model).state_dict(), "vae": vae.state_dict()}
             torch.save(state, os.path.join(config["checkpoint_save_path"], f"{config['tag']}.pth"))
-            generate(save_path=config["generated_path"], need_test=True)
+            prediction = generate(save_path=config["generated_path"], need_test=True)
+            train_report["pdiff_progress"].append({
+                "steps": batch_idx,
+                "generated_norm": prediction.abs().mean().item(),
+            })
         if batch_idx >= config["total_steps"]:
             break
 
@@ -230,7 +282,7 @@ def generate(save_path=config["generated_path"], need_test=True):
     return prediction
 
 if __name__ == '__main__':
-    train_report = {**config}
+    train_report = build_experiment_report(config)
 
     vae_report = train_vae()
     train_report.update(vae_report)
@@ -240,8 +292,8 @@ if __name__ == '__main__':
     train_report.update(pdiff_report)
     del train_loader
 
-    # TODO: serialize config properly, also save under better name
-    with open("train_report.json", "w") as f:
+    os.makedirs("./train_logs", exist_ok=True)
+    with open(os.path.join("./train_logs", "pdiff_train_report.json"), "w") as f:
         json.dump(train_report, f, indent=2)
 
     print("Finished Training!")

@@ -83,7 +83,7 @@ def train(config):
                              num_workers=config["num_workers"], pin_memory=True)
     
     train_report = {
-        **config,
+        "config": {**config},
         "dataset_info": {
             "name": "MNIST",
             "num_classes": 10,
@@ -135,9 +135,9 @@ def train(config):
         test_loss, acc, _, _ = test(model, test_loader, criterion, device, config)
         print(f"Epoch {epoch + 1} Test Loss: {test_loss:.3f} | Test Acc: {acc:.2%}")
         train_report["train_progress"].append({
-            "epoch": epoch + 1,
-            "test_loss": test_loss,
-            "test_acc": acc
+            "steps": epoch + 1,
+            "loss": test_loss,
+            "acc": acc
         })
         if acc > best_acc:
             best_acc = acc
@@ -146,7 +146,8 @@ def train(config):
 
     print(f"Best accuracy: {best_acc:.2%}")
 
-    with open("train_report.json", "w") as f:
+    os.makedirs("./train_logs", exist_ok=True)
+    with open(os.path.join("./train_logs", "mlp_train_report.json"), "w") as f:
         json.dump(train_report, f, indent=2)
 
 
