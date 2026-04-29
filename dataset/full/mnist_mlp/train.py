@@ -162,7 +162,7 @@ def main():
         "num_workers": 4,
         "learning_rate": 1e-3,
         "weight_decay": 5e-4,
-        "epochs": 50,
+        "epochs": 25,
         "seed": 42,
         "tag": os.path.basename(os.path.dirname(__file__)),
     }
