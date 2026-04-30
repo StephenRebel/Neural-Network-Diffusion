@@ -6,39 +6,39 @@ Summary: mnist_mlp
 num_checkpoint: 300
 num_generated: 201
 num_noised: 300x3
-original_acc_mean: 0.9662426666666666
-original_acc_max: 0.9704
-original_acc_min: 0.9589
-original_acc_std: 0.001948960292623283
-original_acc_median: 0.9665
-generated_acc_mean: 0.9699432835820895
-generated_acc_max: 0.9724
-generated_acc_min: 0.9657
-generated_acc_std: 0.0010479865386792137
-generated_acc_median: 0.9699
-noise=0.0010_acc_mean: 0.966239
-noise=0.0500_acc_mean: 0.9654956666666668
-noise=0.1500_acc_mean: 0.9579396666666665
+original_acc_mean: 0.9687920000000001
+original_acc_max: 0.9732
+original_acc_min: 0.9555
+original_acc_std: 0.0022206761733009756
+original_acc_median: 0.9692
+generated_acc_mean: 0.9755114427860696
+generated_acc_max: 0.977
+generated_acc_min: 0.9736
+generated_acc_std: 0.0006956284305527153
+generated_acc_median: 0.9756
+noise=0.0010_acc_mean: 0.968798
+noise=0.0500_acc_mean: 0.9674783333333333
+noise=0.1500_acc_mean: 0.9544483333333333
 
-origin-origin: 0.5217667970262009
-generated-generated: 0.6898720948278181
-origin-generated: 0.5766282603364492
-origin-generated(max): 0.6732640370486127
+origin-origin: 0.480706617223528
+generated-generated: 0.8000941717705272
+origin-generated: 0.5578862863801483
+origin-generated(max): 0.67581732554316
 
 noise_intensity=0.001
-noised-noised: 0.5221552097936233
-origin-noised: 0.5235328372555889
-origin-noised(max): 0.9934002781470866
+noised-noised: 0.4807967373583176
+origin-noised: 0.4824325891213895
+origin-noised(max): 0.9855281911778072
 
 noise_intensity=0.05
-noised-noised: 0.5037834696945261
-origin-noised: 0.5133694437828258
-origin-noised(max): 0.8597247209226752
+noised-noised: 0.4516664484676261
+origin-noised: 0.4662166609525733
+origin-noised(max): 0.8036043793254759
 
 noise_intensity=0.15
-noised-noised: 0.39329200778910783
-origin-noised: 0.43828607690732196
-origin-noised(max): 0.6177459129214469
+noised-noised: 0.3167280140943056
+origin-noised: 0.3634268967614922
+origin-noised(max): 0.5098295676745155
 
 ==> start drawing..
 plot saved to plot_mnist_mlp.png

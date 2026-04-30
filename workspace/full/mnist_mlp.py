@@ -42,8 +42,8 @@ config = {
     # train setting
     "batch_size": 50,
     "num_workers": 4,
-    "total_steps": 10000,  # diffusion training steps
-    "vae_steps": 2500,  # vae training steps
+    "total_steps": 8000,  # diffusion training steps
+    "vae_steps": 2000,  # vae training steps
     "learning_rate": 0.0001,  # diffusion learning rate
     "vae_learning_rate": 0.00002,  # vae learning rate
     "weight_decay": 1e-5,
@@ -59,7 +59,7 @@ config = {
     "model_config": {
         # diffusion config
         "layer_channels": [1, 64, 128, 256, 512, 256, 128, 64, 1],  # channels of 1D CNN
-        "model_dim": 768,  # latent dim of vae
+        "model_dim": 256,  # latent dim of vae
         "kernel_size": 7,
         "sample_mode": DDPMSampler,
         "beta": (0.0001, 0.02),
