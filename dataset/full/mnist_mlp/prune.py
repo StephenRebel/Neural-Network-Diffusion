@@ -35,13 +35,22 @@ def get_config():
 
 def report_sparsity(parameters_to_prune):
     sparsity_report = {}
+    total_zeros = 0
+    total_elements = 0
 
     for module, name in parameters_to_prune:
         weight_tensor = getattr(module, name)
         sparsity_level = 100. * float(torch.sum(weight_tensor == 0)) / weight_tensor.nelement()
         sparsity_report[str(module)] = sparsity_level
 
+        total_zeros += float(torch.sum(weight_tensor == 0))
+        total_elements += weight_tensor.nelement()
+
         print(f"Sparsity in {module}: {sparsity_level:.2f}%")
+
+    global_sparsity = 100. * total_zeros / total_elements
+    sparsity_report["global_sparsity"] = global_sparsity
+    print(f"Total Sparsity: {global_sparsity:.2f}%\n")
 
     return sparsity_report
 
@@ -59,7 +68,7 @@ def main():
 
     # Load trained dense model checkpoint
     model = Model()
-    checkpoint_path = os.path.join(os.path.dirname(__file__), "checkpoint", "model.pth")
+    checkpoint_path = os.path.join(os.path.dirname(__file__), "pretrained.pth")
     state_dict = torch.load(checkpoint_path, map_location=device, weights_only=True)
     model.load_state_dict(state_dict)
     model.to(device)
@@ -87,17 +96,12 @@ def main():
     prune_report["after_pruning_test"] = {"loss": loss, "accuracy": acc}
     prune_report["after_pruning_sparsity"] = report_sparsity(parameters_to_prune)
 
-
-    # Save the pruned model checkpoint
-    for module, name in parameters_to_prune:
-        prune.remove(module, name)
-
     pruned_checkpoint_path = "pruned_pretrained.pth"
     torch.save(model.state_dict(), pruned_checkpoint_path)
     print(f"Pruned model saved to {pruned_checkpoint_path}")
 
     os.makedirs("./train_logs", exist_ok=True)
-    with open(os.path.join("./train_logs", "mlp_finetune_report.json"), "w") as f:
+    with open(os.path.join("./train_logs", "mlp_prune_report.json"), "w") as f:
         json.dump(prune_report, f, indent=2)
 
 if __name__ == "__main__":

@@ -1,0 +1,31 @@
+{
+  "config": {
+    "dataset_root": "~/.cache/p-diff/datasets",
+    "batch_size": 128,
+    "num_workers": 4,
+    "sparsity_level": 0.5,
+    "tag": "mnist_mlp",
+    "seed": 40,
+    "imagenet_root": "~/data/imagenet"
+  },
+  "initial_test": {
+    "loss": 0.07311985212602193,
+    "accuracy": 0.978
+  },
+  "initial_sparsity": {
+    "Linear(in_features=196, out_features=32, bias=True)": 0.0,
+    "Linear(in_features=32, out_features=16, bias=True)": 0.0,
+    "Linear(in_features=16, out_features=10, bias=True)": 0.0,
+    "global_sparsity": 0.0
+  },
+  "after_pruning_test": {
+    "loss": 0.11686349315922472,
+    "accuracy": 0.9631
+  },
+  "after_pruning_sparsity": {
+    "Linear(in_features=196, out_features=32, bias=True)": 53.44387755102041,
+    "Linear(in_features=32, out_features=16, bias=True)": 22.65625,
+    "Linear(in_features=16, out_features=10, bias=True)": 2.5,
+    "global_sparsity": 50.0
+  }
+}
