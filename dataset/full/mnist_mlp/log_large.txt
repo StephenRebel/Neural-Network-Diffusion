@@ -1,0 +1,44 @@
+
+
+===============================================
+Summary: mnist_mlp
+
+num_checkpoint: 300
+num_generated: 201
+num_noised: 300x3
+original_acc_mean: 0.9662426666666666
+original_acc_max: 0.9704
+original_acc_min: 0.9589
+original_acc_std: 0.001948960292623283
+original_acc_median: 0.9665
+generated_acc_mean: 0.9699432835820895
+generated_acc_max: 0.9724
+generated_acc_min: 0.9657
+generated_acc_std: 0.0010479865386792137
+generated_acc_median: 0.9699
+noise=0.0010_acc_mean: 0.966239
+noise=0.0500_acc_mean: 0.9654956666666668
+noise=0.1500_acc_mean: 0.9579396666666665
+
+origin-origin: 0.5217667970262009
+generated-generated: 0.6898720948278181
+origin-generated: 0.5766282603364492
+origin-generated(max): 0.6732640370486127
+
+noise_intensity=0.001
+noised-noised: 0.5221552097936233
+origin-noised: 0.5235328372555889
+origin-noised(max): 0.9934002781470866
+
+noise_intensity=0.05
+noised-noised: 0.5037834696945261
+origin-noised: 0.5133694437828258
+origin-noised(max): 0.8597247209226752
+
+noise_intensity=0.15
+noised-noised: 0.39329200778910783
+origin-noised: 0.43828607690732196
+origin-noised(max): 0.6177459129214469
+
+==> start drawing..
+plot saved to plot_mnist_mlp.png

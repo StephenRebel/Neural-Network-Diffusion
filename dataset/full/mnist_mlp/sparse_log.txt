@@ -1,0 +1,1849 @@
+
+==> start evaluating..
+load cache from ./dataset/full/mnist_mlp/performance.cache
+testing noised: 1/900
+Test Loss: 0.0939 | Test Acc: 0.9692
+testing noised: 2/900
+Test Loss: 0.0917 | Test Acc: 0.9702
+testing noised: 3/900
+Test Loss: 0.0876 | Test Acc: 0.9738
+testing noised: 4/900
+Test Loss: 0.0969 | Test Acc: 0.9688
+testing noised: 5/900
+Test Loss: 0.0900 | Test Acc: 0.9729
+testing noised: 6/900
+Test Loss: 0.0924 | Test Acc: 0.9723
+testing noised: 7/900
+Test Loss: 0.1171 | Test Acc: 0.9625
+testing noised: 8/900
+Test Loss: 0.1003 | Test Acc: 0.9674
+testing noised: 9/900
+Test Loss: 0.0933 | Test Acc: 0.9709
+testing noised: 10/900
+Test Loss: 0.0940 | Test Acc: 0.9704
+testing noised: 11/900
+Test Loss: 0.0922 | Test Acc: 0.9702
+testing noised: 12/900
+Test Loss: 0.0958 | Test Acc: 0.9679
+testing noised: 13/900
+Test Loss: 0.1051 | Test Acc: 0.9667
+testing noised: 14/900
+Test Loss: 0.0950 | Test Acc: 0.9708
+testing noised: 15/900
+Test Loss: 0.1007 | Test Acc: 0.9661
+testing noised: 16/900
+Test Loss: 0.0926 | Test Acc: 0.9705
+testing noised: 17/900
+Test Loss: 0.0950 | Test Acc: 0.9697
+testing noised: 18/900
+Test Loss: 0.0952 | Test Acc: 0.9700
+testing noised: 19/900
+Test Loss: 0.0920 | Test Acc: 0.9715
+testing noised: 20/900
+Test Loss: 0.0980 | Test Acc: 0.9696
+testing noised: 21/900
+Test Loss: 0.0893 | Test Acc: 0.9721
+testing noised: 22/900
+Test Loss: 0.0862 | Test Acc: 0.9723
+testing noised: 23/900
+Test Loss: 0.0909 | Test Acc: 0.9726
+testing noised: 24/900
+Test Loss: 0.0899 | Test Acc: 0.9728
+testing noised: 25/900
+Test Loss: 0.0891 | Test Acc: 0.9724
+testing noised: 26/900
+Test Loss: 0.0912 | Test Acc: 0.9723
+testing noised: 27/900
+Test Loss: 0.0975 | Test Acc: 0.9694
+testing noised: 28/900
+Test Loss: 0.0936 | Test Acc: 0.9705
+testing noised: 29/900
+Test Loss: 0.0930 | Test Acc: 0.9702
+testing noised: 30/900
+Test Loss: 0.0899 | Test Acc: 0.9741
+testing noised: 31/900
+Test Loss: 0.0944 | Test Acc: 0.9693
+testing noised: 32/900
+Test Loss: 0.0954 | Test Acc: 0.9696
+testing noised: 33/900
+Test Loss: 0.0969 | Test Acc: 0.9701
+testing noised: 34/900
+Test Loss: 0.0885 | Test Acc: 0.9742
+testing noised: 35/900
+Test Loss: 0.0972 | Test Acc: 0.9704
+testing noised: 36/900
+Test Loss: 0.0890 | Test Acc: 0.9743
+testing noised: 37/900
+Test Loss: 0.0927 | Test Acc: 0.9707
+testing noised: 38/900
+Test Loss: 0.0911 | Test Acc: 0.9711
+testing noised: 39/900
+Test Loss: 0.0907 | Test Acc: 0.9711
+testing noised: 40/900
+Test Loss: 0.0917 | Test Acc: 0.9706
+testing noised: 41/900
+Test Loss: 0.0935 | Test Acc: 0.9711
+testing noised: 42/900
+Test Loss: 0.0971 | Test Acc: 0.9686
+testing noised: 43/900
+Test Loss: 0.0921 | Test Acc: 0.9708
+testing noised: 44/900
+Test Loss: 0.0967 | Test Acc: 0.9701
+testing noised: 45/900
+Test Loss: 0.0929 | Test Acc: 0.9703
+testing noised: 46/900
+Test Loss: 0.0998 | Test Acc: 0.9686
+testing noised: 47/900
+Test Loss: 0.0932 | Test Acc: 0.9703
+testing noised: 48/900
+Test Loss: 0.0936 | Test Acc: 0.9695
+testing noised: 49/900
+Test Loss: 0.0917 | Test Acc: 0.9721
+testing noised: 50/900
+Test Loss: 0.0937 | Test Acc: 0.9706
+testing noised: 51/900
+Test Loss: 0.1109 | Test Acc: 0.9632
+testing noised: 52/900
+Test Loss: 0.0939 | Test Acc: 0.9695
+testing noised: 53/900
+Test Loss: 0.0963 | Test Acc: 0.9676
+testing noised: 54/900
+Test Loss: 0.0923 | Test Acc: 0.9710
+testing noised: 55/900
+Test Loss: 0.0883 | Test Acc: 0.9725
+testing noised: 56/900
+Test Loss: 0.0874 | Test Acc: 0.9732
+testing noised: 57/900
+Test Loss: 0.0885 | Test Acc: 0.9729
+testing noised: 58/900
+Test Loss: 0.0921 | Test Acc: 0.9709
+testing noised: 59/900
+Test Loss: 0.0916 | Test Acc: 0.9711
+testing noised: 60/900
+Test Loss: 0.0977 | Test Acc: 0.9715
+testing noised: 61/900
+Test Loss: 0.0956 | Test Acc: 0.9693
+testing noised: 62/900
+Test Loss: 0.0985 | Test Acc: 0.9692
+testing noised: 63/900
+Test Loss: 0.1017 | Test Acc: 0.9677
+testing noised: 64/900
+Test Loss: 0.1004 | Test Acc: 0.9666
+testing noised: 65/900
+Test Loss: 0.0874 | Test Acc: 0.9733
+testing noised: 66/900
+Test Loss: 0.0914 | Test Acc: 0.9733
+testing noised: 67/900
+Test Loss: 0.0980 | Test Acc: 0.9693
+testing noised: 68/900
+Test Loss: 0.0928 | Test Acc: 0.9699
+testing noised: 69/900
+Test Loss: 0.0943 | Test Acc: 0.9696
+testing noised: 70/900
+Test Loss: 0.0968 | Test Acc: 0.9706
+testing noised: 71/900
+Test Loss: 0.0948 | Test Acc: 0.9690
+testing noised: 72/900
+Test Loss: 0.0932 | Test Acc: 0.9701
+testing noised: 73/900
+Test Loss: 0.0938 | Test Acc: 0.9713
+testing noised: 74/900
+Test Loss: 0.0933 | Test Acc: 0.9708
+testing noised: 75/900
+Test Loss: 0.0920 | Test Acc: 0.9696
+testing noised: 76/900
+Test Loss: 0.0969 | Test Acc: 0.9699
+testing noised: 77/900
+Test Loss: 0.0987 | Test Acc: 0.9678
+testing noised: 78/900
+Test Loss: 0.0921 | Test Acc: 0.9696
+testing noised: 79/900
+Test Loss: 0.0971 | Test Acc: 0.9717
+testing noised: 80/900
+Test Loss: 0.0992 | Test Acc: 0.9675
+testing noised: 81/900
+Test Loss: 0.0895 | Test Acc: 0.9700
+testing noised: 82/900
+Test Loss: 0.0946 | Test Acc: 0.9709
+testing noised: 83/900
+Test Loss: 0.0965 | Test Acc: 0.9681
+testing noised: 84/900
+Test Loss: 0.0876 | Test Acc: 0.9727
+testing noised: 85/900
+Test Loss: 0.1034 | Test Acc: 0.9658
+testing noised: 86/900
+Test Loss: 0.0904 | Test Acc: 0.9723
+testing noised: 87/900
+Test Loss: 0.0953 | Test Acc: 0.9687
+testing noised: 88/900
+Test Loss: 0.0935 | Test Acc: 0.9699
+testing noised: 89/900
+Test Loss: 0.0927 | Test Acc: 0.9700
+testing noised: 90/900
+Test Loss: 0.0928 | Test Acc: 0.9701
+testing noised: 91/900
+Test Loss: 0.0977 | Test Acc: 0.9687
+testing noised: 92/900
+Test Loss: 0.0924 | Test Acc: 0.9713
+testing noised: 93/900
+Test Loss: 0.0907 | Test Acc: 0.9702
+testing noised: 94/900
+Test Loss: 0.0902 | Test Acc: 0.9708
+testing noised: 95/900
+Test Loss: 0.0925 | Test Acc: 0.9700
+testing noised: 96/900
+Test Loss: 0.0883 | Test Acc: 0.9737
+testing noised: 97/900
+Test Loss: 0.0968 | Test Acc: 0.9710
+testing noised: 98/900
+Test Loss: 0.0966 | Test Acc: 0.9697
+testing noised: 99/900
+Test Loss: 0.0925 | Test Acc: 0.9707
+testing noised: 100/900
+Test Loss: 0.0932 | Test Acc: 0.9703
+testing noised: 101/900
+Test Loss: 0.0934 | Test Acc: 0.9711
+testing noised: 102/900
+Test Loss: 0.0901 | Test Acc: 0.9729
+testing noised: 103/900
+Test Loss: 0.0979 | Test Acc: 0.9696
+testing noised: 104/900
+Test Loss: 0.1011 | Test Acc: 0.9690
+testing noised: 105/900
+Test Loss: 0.0860 | Test Acc: 0.9727
+testing noised: 106/900
+Test Loss: 0.0942 | Test Acc: 0.9695
+testing noised: 107/900
+Test Loss: 0.0959 | Test Acc: 0.9693
+testing noised: 108/900
+Test Loss: 0.0893 | Test Acc: 0.9734
+testing noised: 109/900
+Test Loss: 0.0876 | Test Acc: 0.9728
+testing noised: 110/900
+Test Loss: 0.0952 | Test Acc: 0.9683
+testing noised: 111/900
+Test Loss: 0.0945 | Test Acc: 0.9699
+testing noised: 112/900
+Test Loss: 0.0939 | Test Acc: 0.9699
+testing noised: 113/900
+Test Loss: 0.0968 | Test Acc: 0.9698
+testing noised: 114/900
+Test Loss: 0.0884 | Test Acc: 0.9731
+testing noised: 115/900
+Test Loss: 0.0917 | Test Acc: 0.9720
+testing noised: 116/900
+Test Loss: 0.0888 | Test Acc: 0.9741
+testing noised: 117/900
+Test Loss: 0.0892 | Test Acc: 0.9736
+testing noised: 118/900
+Test Loss: 0.0942 | Test Acc: 0.9701
+testing noised: 119/900
+Test Loss: 0.0939 | Test Acc: 0.9699
+testing noised: 120/900
+Test Loss: 0.0884 | Test Acc: 0.9720
+testing noised: 121/900
+Test Loss: 0.0927 | Test Acc: 0.9716
+testing noised: 122/900
+Test Loss: 0.0927 | Test Acc: 0.9709
+testing noised: 123/900
+Test Loss: 0.0934 | Test Acc: 0.9695
+testing noised: 124/900
+Test Loss: 0.0919 | Test Acc: 0.9692
+testing noised: 125/900
+Test Loss: 0.0909 | Test Acc: 0.9707
+testing noised: 126/900
+Test Loss: 0.0901 | Test Acc: 0.9739
+testing noised: 127/900
+Test Loss: 0.0929 | Test Acc: 0.9712
+testing noised: 128/900
+Test Loss: 0.0982 | Test Acc: 0.9675
+testing noised: 129/900
+Test Loss: 0.0898 | Test Acc: 0.9724
+testing noised: 130/900
+Test Loss: 0.0908 | Test Acc: 0.9724
+testing noised: 131/900
+Test Loss: 0.0975 | Test Acc: 0.9682
+testing noised: 132/900
+Test Loss: 0.0978 | Test Acc: 0.9677
+testing noised: 133/900
+Test Loss: 0.0986 | Test Acc: 0.9675
+testing noised: 134/900
+Test Loss: 0.0882 | Test Acc: 0.9733
+testing noised: 135/900
+Test Loss: 0.0946 | Test Acc: 0.9693
+testing noised: 136/900
+Test Loss: 0.0936 | Test Acc: 0.9693
+testing noised: 137/900
+Test Loss: 0.0889 | Test Acc: 0.9716
+testing noised: 138/900
+Test Loss: 0.0924 | Test Acc: 0.9704
+testing noised: 139/900
+Test Loss: 0.0903 | Test Acc: 0.9706
+testing noised: 140/900
+Test Loss: 0.0923 | Test Acc: 0.9703
+testing noised: 141/900
+Test Loss: 0.1024 | Test Acc: 0.9666
+testing noised: 142/900
+Test Loss: 0.0920 | Test Acc: 0.9711
+testing noised: 143/900
+Test Loss: 0.0948 | Test Acc: 0.9708
+testing noised: 144/900
+Test Loss: 0.0949 | Test Acc: 0.9687
+testing noised: 145/900
+Test Loss: 0.0928 | Test Acc: 0.9699
+testing noised: 146/900
+Test Loss: 0.0970 | Test Acc: 0.9711
+testing noised: 147/900
+Test Loss: 0.0941 | Test Acc: 0.9716
+testing noised: 148/900
+Test Loss: 0.0932 | Test Acc: 0.9706
+testing noised: 149/900
+Test Loss: 0.1019 | Test Acc: 0.9673
+testing noised: 150/900
+Test Loss: 0.0912 | Test Acc: 0.9722
+testing noised: 151/900
+Test Loss: 0.0946 | Test Acc: 0.9698
+testing noised: 152/900
+Test Loss: 0.0872 | Test Acc: 0.9726
+testing noised: 153/900
+Test Loss: 0.0955 | Test Acc: 0.9684
+testing noised: 154/900
+Test Loss: 0.0915 | Test Acc: 0.9705
+testing noised: 155/900
+Test Loss: 0.0898 | Test Acc: 0.9726
+testing noised: 156/900
+Test Loss: 0.0933 | Test Acc: 0.9693
+testing noised: 157/900
+Test Loss: 0.0923 | Test Acc: 0.9711
+testing noised: 158/900
+Test Loss: 0.0952 | Test Acc: 0.9706
+testing noised: 159/900
+Test Loss: 0.0996 | Test Acc: 0.9679
+testing noised: 160/900
+Test Loss: 0.0893 | Test Acc: 0.9719
+testing noised: 161/900
+Test Loss: 0.0939 | Test Acc: 0.9725
+testing noised: 162/900
+Test Loss: 0.0912 | Test Acc: 0.9726
+testing noised: 163/900
+Test Loss: 0.0933 | Test Acc: 0.9707
+testing noised: 164/900
+Test Loss: 0.0941 | Test Acc: 0.9708
+testing noised: 165/900
+Test Loss: 0.0912 | Test Acc: 0.9702
+testing noised: 166/900
+Test Loss: 0.0906 | Test Acc: 0.9699
+testing noised: 167/900
+Test Loss: 0.0921 | Test Acc: 0.9699
+testing noised: 168/900
+Test Loss: 0.0885 | Test Acc: 0.9721
+testing noised: 169/900
+Test Loss: 0.1056 | Test Acc: 0.9654
+testing noised: 170/900
+Test Loss: 0.0948 | Test Acc: 0.9690
+testing noised: 171/900
+Test Loss: 0.1000 | Test Acc: 0.9675
+testing noised: 172/900
+Test Loss: 0.0931 | Test Acc: 0.9688
+testing noised: 173/900
+Test Loss: 0.0965 | Test Acc: 0.9714
+testing noised: 174/900
+Test Loss: 0.0887 | Test Acc: 0.9708
+testing noised: 175/900
+Test Loss: 0.0931 | Test Acc: 0.9707
+testing noised: 176/900
+Test Loss: 0.0943 | Test Acc: 0.9699
+testing noised: 177/900
+Test Loss: 0.0893 | Test Acc: 0.9723
+testing noised: 178/900
+Test Loss: 0.0923 | Test Acc: 0.9707
+testing noised: 179/900
+Test Loss: 0.0968 | Test Acc: 0.9704
+testing noised: 180/900
+Test Loss: 0.0932 | Test Acc: 0.9705
+testing noised: 181/900
+Test Loss: 0.0921 | Test Acc: 0.9689
+testing noised: 182/900
+Test Loss: 0.0884 | Test Acc: 0.9745
+testing noised: 183/900
+Test Loss: 0.0947 | Test Acc: 0.9723
+testing noised: 184/900
+Test Loss: 0.0926 | Test Acc: 0.9721
+testing noised: 185/900
+Test Loss: 0.0924 | Test Acc: 0.9711
+testing noised: 186/900
+Test Loss: 0.0940 | Test Acc: 0.9700
+testing noised: 187/900
+Test Loss: 0.0946 | Test Acc: 0.9699
+testing noised: 188/900
+Test Loss: 0.0900 | Test Acc: 0.9712
+testing noised: 189/900
+Test Loss: 0.0946 | Test Acc: 0.9700
+testing noised: 190/900
+Test Loss: 0.0958 | Test Acc: 0.9699
+testing noised: 191/900
+Test Loss: 0.0946 | Test Acc: 0.9692
+testing noised: 192/900
+Test Loss: 0.0963 | Test Acc: 0.9683
+testing noised: 193/900
+Test Loss: 0.0901 | Test Acc: 0.9701
+testing noised: 194/900
+Test Loss: 0.0979 | Test Acc: 0.9691
+testing noised: 195/900
+Test Loss: 0.0923 | Test Acc: 0.9702
+testing noised: 196/900
+Test Loss: 0.0937 | Test Acc: 0.9710
+testing noised: 197/900
+Test Loss: 0.1016 | Test Acc: 0.9684
+testing noised: 198/900
+Test Loss: 0.0945 | Test Acc: 0.9692
+testing noised: 199/900
+Test Loss: 0.0896 | Test Acc: 0.9728
+testing noised: 200/900
+Test Loss: 0.0973 | Test Acc: 0.9686
+testing noised: 201/900
+Test Loss: 0.0921 | Test Acc: 0.9696
+testing noised: 202/900
+Test Loss: 0.0960 | Test Acc: 0.9702
+testing noised: 203/900
+Test Loss: 0.0943 | Test Acc: 0.9720
+testing noised: 204/900
+Test Loss: 0.0957 | Test Acc: 0.9678
+testing noised: 205/900
+Test Loss: 0.0946 | Test Acc: 0.9712
+testing noised: 206/900
+Test Loss: 0.0959 | Test Acc: 0.9698
+testing noised: 207/900
+Test Loss: 0.0885 | Test Acc: 0.9730
+testing noised: 208/900
+Test Loss: 0.0895 | Test Acc: 0.9716
+testing noised: 209/900
+Test Loss: 0.0943 | Test Acc: 0.9701
+testing noised: 210/900
+Test Loss: 0.1061 | Test Acc: 0.9661
+testing noised: 211/900
+Test Loss: 0.0942 | Test Acc: 0.9701
+testing noised: 212/900
+Test Loss: 0.0902 | Test Acc: 0.9735
+testing noised: 213/900
+Test Loss: 0.0973 | Test Acc: 0.9695
+testing noised: 214/900
+Test Loss: 0.1140 | Test Acc: 0.9636
+testing noised: 215/900
+Test Loss: 0.0911 | Test Acc: 0.9709
+testing noised: 216/900
+Test Loss: 0.0988 | Test Acc: 0.9673
+testing noised: 217/900
+Test Loss: 0.0950 | Test Acc: 0.9692
+testing noised: 218/900
+Test Loss: 0.0910 | Test Acc: 0.9729
+testing noised: 219/900
+Test Loss: 0.0980 | Test Acc: 0.9680
+testing noised: 220/900
+Test Loss: 0.0900 | Test Acc: 0.9734
+testing noised: 221/900
+Test Loss: 0.0910 | Test Acc: 0.9729
+testing noised: 222/900
+Test Loss: 0.0970 | Test Acc: 0.9676
+testing noised: 223/900
+Test Loss: 0.0922 | Test Acc: 0.9714
+testing noised: 224/900
+Test Loss: 0.0953 | Test Acc: 0.9705
+testing noised: 225/900
+Test Loss: 0.0936 | Test Acc: 0.9703
+testing noised: 226/900
+Test Loss: 0.1001 | Test Acc: 0.9674
+testing noised: 227/900
+Test Loss: 0.0888 | Test Acc: 0.9736
+testing noised: 228/900
+Test Loss: 0.0938 | Test Acc: 0.9708
+testing noised: 229/900
+Test Loss: 0.0915 | Test Acc: 0.9731
+testing noised: 230/900
+Test Loss: 0.0934 | Test Acc: 0.9727
+testing noised: 231/900
+Test Loss: 0.0948 | Test Acc: 0.9686
+testing noised: 232/900
+Test Loss: 0.0898 | Test Acc: 0.9709
+testing noised: 233/900
+Test Loss: 0.0906 | Test Acc: 0.9709
+testing noised: 234/900
+Test Loss: 0.0905 | Test Acc: 0.9721
+testing noised: 235/900
+Test Loss: 0.0927 | Test Acc: 0.9700
+testing noised: 236/900
+Test Loss: 0.0898 | Test Acc: 0.9708
+testing noised: 237/900
+Test Loss: 0.1041 | Test Acc: 0.9653
+testing noised: 238/900
+Test Loss: 0.0889 | Test Acc: 0.9719
+testing noised: 239/900
+Test Loss: 0.0904 | Test Acc: 0.9719
+testing noised: 240/900
+Test Loss: 0.0928 | Test Acc: 0.9718
+testing noised: 241/900
+Test Loss: 0.0897 | Test Acc: 0.9730
+testing noised: 242/900
+Test Loss: 0.0906 | Test Acc: 0.9723
+testing noised: 243/900
+Test Loss: 0.0952 | Test Acc: 0.9714
+testing noised: 244/900
+Test Loss: 0.0922 | Test Acc: 0.9697
+testing noised: 245/900
+Test Loss: 0.0939 | Test Acc: 0.9710
+testing noised: 246/900
+Test Loss: 0.0929 | Test Acc: 0.9698
+testing noised: 247/900
+Test Loss: 0.0936 | Test Acc: 0.9697
+testing noised: 248/900
+Test Loss: 0.0924 | Test Acc: 0.9719
+testing noised: 249/900
+Test Loss: 0.0945 | Test Acc: 0.9705
+testing noised: 250/900
+Test Loss: 0.0885 | Test Acc: 0.9729
+testing noised: 251/900
+Test Loss: 0.1002 | Test Acc: 0.9677
+testing noised: 252/900
+Test Loss: 0.0885 | Test Acc: 0.9722
+testing noised: 253/900
+Test Loss: 0.0900 | Test Acc: 0.9718
+testing noised: 254/900
+Test Loss: 0.1108 | Test Acc: 0.9650
+testing noised: 255/900
+Test Loss: 0.0935 | Test Acc: 0.9711
+testing noised: 256/900
+Test Loss: 0.0987 | Test Acc: 0.9683
+testing noised: 257/900
+Test Loss: 0.0946 | Test Acc: 0.9721
+testing noised: 258/900
+Test Loss: 0.0883 | Test Acc: 0.9742
+testing noised: 259/900
+Test Loss: 0.0929 | Test Acc: 0.9716
+testing noised: 260/900
+Test Loss: 0.0923 | Test Acc: 0.9711
+testing noised: 261/900
+Test Loss: 0.0949 | Test Acc: 0.9713
+testing noised: 262/900
+Test Loss: 0.0939 | Test Acc: 0.9703
+testing noised: 263/900
+Test Loss: 0.0957 | Test Acc: 0.9692
+testing noised: 264/900
+Test Loss: 0.0899 | Test Acc: 0.9721
+testing noised: 265/900
+Test Loss: 0.0910 | Test Acc: 0.9712
+testing noised: 266/900
+Test Loss: 0.0921 | Test Acc: 0.9707
+testing noised: 267/900
+Test Loss: 0.0884 | Test Acc: 0.9737
+testing noised: 268/900
+Test Loss: 0.0907 | Test Acc: 0.9713
+testing noised: 269/900
+Test Loss: 0.0949 | Test Acc: 0.9700
+testing noised: 270/900
+Test Loss: 0.0931 | Test Acc: 0.9693
+testing noised: 271/900
+Test Loss: 0.0929 | Test Acc: 0.9714
+testing noised: 272/900
+Test Loss: 0.0875 | Test Acc: 0.9728
+testing noised: 273/900
+Test Loss: 0.0933 | Test Acc: 0.9706
+testing noised: 274/900
+Test Loss: 0.0988 | Test Acc: 0.9681
+testing noised: 275/900
+Test Loss: 0.0897 | Test Acc: 0.9717
+testing noised: 276/900
+Test Loss: 0.0881 | Test Acc: 0.9729
+testing noised: 277/900
+Test Loss: 0.0968 | Test Acc: 0.9687
+testing noised: 278/900
+Test Loss: 0.0940 | Test Acc: 0.9693
+testing noised: 279/900
+Test Loss: 0.0850 | Test Acc: 0.9733
+testing noised: 280/900
+Test Loss: 0.0974 | Test Acc: 0.9688
+testing noised: 281/900
+Test Loss: 0.0995 | Test Acc: 0.9686
+testing noised: 282/900
+Test Loss: 0.0971 | Test Acc: 0.9682
+testing noised: 283/900
+Test Loss: 0.0970 | Test Acc: 0.9681
+testing noised: 284/900
+Test Loss: 0.0926 | Test Acc: 0.9697
+testing noised: 285/900
+Test Loss: 0.0965 | Test Acc: 0.9684
+testing noised: 286/900
+Test Loss: 0.0973 | Test Acc: 0.9696
+testing noised: 287/900
+Test Loss: 0.0932 | Test Acc: 0.9700
+testing noised: 288/900
+Test Loss: 0.0938 | Test Acc: 0.9694
+testing noised: 289/900
+Test Loss: 0.0942 | Test Acc: 0.9718
+testing noised: 290/900
+Test Loss: 0.0975 | Test Acc: 0.9718
+testing noised: 291/900
+Test Loss: 0.0939 | Test Acc: 0.9689
+testing noised: 292/900
+Test Loss: 0.0971 | Test Acc: 0.9672
+testing noised: 293/900
+Test Loss: 0.0876 | Test Acc: 0.9725
+testing noised: 294/900
+Test Loss: 0.0972 | Test Acc: 0.9683
+testing noised: 295/900
+Test Loss: 0.0939 | Test Acc: 0.9721
+testing noised: 296/900
+Test Loss: 0.0893 | Test Acc: 0.9725
+testing noised: 297/900
+Test Loss: 0.1020 | Test Acc: 0.9682
+testing noised: 298/900
+Test Loss: 0.0958 | Test Acc: 0.9686
+testing noised: 299/900
+Test Loss: 0.0887 | Test Acc: 0.9733
+testing noised: 300/900
+Test Loss: 0.0917 | Test Acc: 0.9721
+testing noised: 301/900
+Test Loss: 1.1958 | Test Acc: 0.6148
+testing noised: 302/900
+Test Loss: 0.0976 | Test Acc: 0.9680
+testing noised: 303/900
+Test Loss: 0.0960 | Test Acc: 0.9691
+testing noised: 304/900
+Test Loss: 0.0937 | Test Acc: 0.9713
+testing noised: 305/900
+Test Loss: 0.0992 | Test Acc: 0.9680
+testing noised: 306/900
+Test Loss: 0.0976 | Test Acc: 0.9716
+testing noised: 307/900
+Test Loss: 0.0968 | Test Acc: 0.9714
+testing noised: 308/900
+Test Loss: 0.1229 | Test Acc: 0.9607
+testing noised: 309/900
+Test Loss: 0.1070 | Test Acc: 0.9659
+testing noised: 310/900
+Test Loss: 0.0974 | Test Acc: 0.9711
+testing noised: 311/900
+Test Loss: 0.0971 | Test Acc: 0.9696
+testing noised: 312/900
+Test Loss: 0.0959 | Test Acc: 0.9700
+testing noised: 313/900
+Test Loss: 0.0994 | Test Acc: 0.9675
+testing noised: 314/900
+Test Loss: 0.1141 | Test Acc: 0.9625
+testing noised: 315/900
+Test Loss: 0.0990 | Test Acc: 0.9691
+testing noised: 316/900
+Test Loss: 0.1027 | Test Acc: 0.9667
+testing noised: 317/900
+Test Loss: 0.0970 | Test Acc: 0.9690
+testing noised: 318/900
+Test Loss: 0.1018 | Test Acc: 0.9666
+testing noised: 319/900
+Test Loss: 0.0953 | Test Acc: 0.9698
+testing noised: 320/900
+Test Loss: 0.0980 | Test Acc: 0.9691
+testing noised: 321/900
+Test Loss: 0.1043 | Test Acc: 0.9674
+testing noised: 322/900
+Test Loss: 0.0939 | Test Acc: 0.9703
+testing noised: 323/900
+Test Loss: 0.0912 | Test Acc: 0.9714
+testing noised: 324/900
+Test Loss: 0.0937 | Test Acc: 0.9707
+testing noised: 325/900
+Test Loss: 0.0926 | Test Acc: 0.9726
+testing noised: 326/900
+Test Loss: 0.0912 | Test Acc: 0.9731
+testing noised: 327/900
+Test Loss: 0.1015 | Test Acc: 0.9695
+testing noised: 328/900
+Test Loss: 0.1024 | Test Acc: 0.9684
+testing noised: 329/900
+Test Loss: 0.0991 | Test Acc: 0.9704
+testing noised: 330/900
+Test Loss: 0.0964 | Test Acc: 0.9691
+testing noised: 331/900
+Test Loss: 0.0975 | Test Acc: 0.9694
+testing noised: 332/900
+Test Loss: 0.0969 | Test Acc: 0.9688
+testing noised: 333/900
+Test Loss: 0.0983 | Test Acc: 0.9692
+testing noised: 334/900
+Test Loss: 0.0971 | Test Acc: 0.9710
+testing noised: 335/900
+Test Loss: 0.0902 | Test Acc: 0.9738
+testing noised: 336/900
+Test Loss: 0.1008 | Test Acc: 0.9687
+testing noised: 337/900
+Test Loss: 0.0922 | Test Acc: 0.9714
+testing noised: 338/900
+Test Loss: 0.1013 | Test Acc: 0.9679
+testing noised: 339/900
+Test Loss: 0.0898 | Test Acc: 0.9715
+testing noised: 340/900
+Test Loss: 0.0966 | Test Acc: 0.9700
+testing noised: 341/900
+Test Loss: 0.0931 | Test Acc: 0.9708
+testing noised: 342/900
+Test Loss: 0.1123 | Test Acc: 0.9660
+testing noised: 343/900
+Test Loss: 0.1054 | Test Acc: 0.9660
+testing noised: 344/900
+Test Loss: 0.0927 | Test Acc: 0.9696
+testing noised: 345/900
+Test Loss: 0.0995 | Test Acc: 0.9689
+testing noised: 346/900
+Test Loss: 0.0950 | Test Acc: 0.9703
+testing noised: 347/900
+Test Loss: 0.1000 | Test Acc: 0.9697
+testing noised: 348/900
+Test Loss: 0.0963 | Test Acc: 0.9711
+testing noised: 349/900
+Test Loss: 0.1000 | Test Acc: 0.9667
+testing noised: 350/900
+Test Loss: 0.0919 | Test Acc: 0.9716
+testing noised: 351/900
+Test Loss: 0.1001 | Test Acc: 0.9689
+testing noised: 352/900
+Test Loss: 0.1089 | Test Acc: 0.9653
+testing noised: 353/900
+Test Loss: 0.1033 | Test Acc: 0.9650
+testing noised: 354/900
+Test Loss: 0.1039 | Test Acc: 0.9639
+testing noised: 355/900
+Test Loss: 0.0925 | Test Acc: 0.9699
+testing noised: 356/900
+Test Loss: 0.0881 | Test Acc: 0.9718
+testing noised: 357/900
+Test Loss: 0.0909 | Test Acc: 0.9717
+testing noised: 358/900
+Test Loss: 0.0921 | Test Acc: 0.9721
+testing noised: 359/900
+Test Loss: 0.0940 | Test Acc: 0.9706
+testing noised: 360/900
+Test Loss: 0.0994 | Test Acc: 0.9686
+testing noised: 361/900
+Test Loss: 0.1013 | Test Acc: 0.9694
+testing noised: 362/900
+Test Loss: 0.0983 | Test Acc: 0.9690
+testing noised: 363/900
+Test Loss: 0.1023 | Test Acc: 0.9676
+testing noised: 364/900
+Test Loss: 0.0997 | Test Acc: 0.9668
+testing noised: 365/900
+Test Loss: 0.1081 | Test Acc: 0.9649
+testing noised: 366/900
+Test Loss: 0.0928 | Test Acc: 0.9717
+testing noised: 367/900
+Test Loss: 0.0941 | Test Acc: 0.9733
+testing noised: 368/900
+Test Loss: 0.0949 | Test Acc: 0.9697
+testing noised: 369/900
+Test Loss: 0.0964 | Test Acc: 0.9715
+testing noised: 370/900
+Test Loss: 0.1084 | Test Acc: 0.9655
+testing noised: 371/900
+Test Loss: 0.1049 | Test Acc: 0.9685
+testing noised: 372/900
+Test Loss: 0.0970 | Test Acc: 0.9682
+testing noised: 373/900
+Test Loss: 0.0976 | Test Acc: 0.9683
+testing noised: 374/900
+Test Loss: 0.0913 | Test Acc: 0.9717
+testing noised: 375/900
+Test Loss: 0.0964 | Test Acc: 0.9703
+testing noised: 376/900
+Test Loss: 0.0929 | Test Acc: 0.9693
+testing noised: 377/900
+Test Loss: 0.1002 | Test Acc: 0.9690
+testing noised: 378/900
+Test Loss: 0.1206 | Test Acc: 0.9612
+testing noised: 379/900
+Test Loss: 0.0938 | Test Acc: 0.9690
+testing noised: 380/900
+Test Loss: 0.0962 | Test Acc: 0.9719
+testing noised: 381/900
+Test Loss: 0.1136 | Test Acc: 0.9636
+testing noised: 382/900
+Test Loss: 0.0912 | Test Acc: 0.9699
+testing noised: 383/900
+Test Loss: 0.1051 | Test Acc: 0.9680
+testing noised: 384/900
+Test Loss: 0.0979 | Test Acc: 0.9677
+testing noised: 385/900
+Test Loss: 0.0927 | Test Acc: 0.9706
+testing noised: 386/900
+Test Loss: 0.1083 | Test Acc: 0.9645
+testing noised: 387/900
+Test Loss: 0.0911 | Test Acc: 0.9725
+testing noised: 388/900
+Test Loss: 0.0971 | Test Acc: 0.9678
+testing noised: 389/900
+Test Loss: 0.0951 | Test Acc: 0.9708
+testing noised: 390/900
+Test Loss: 0.0925 | Test Acc: 0.9700
+testing noised: 391/900
+Test Loss: 0.0957 | Test Acc: 0.9700
+testing noised: 392/900
+Test Loss: 0.1036 | Test Acc: 0.9685
+testing noised: 393/900
+Test Loss: 0.0936 | Test Acc: 0.9703
+testing noised: 394/900
+Test Loss: 0.0937 | Test Acc: 0.9692
+testing noised: 395/900
+Test Loss: 0.0963 | Test Acc: 0.9692
+testing noised: 396/900
+Test Loss: 0.0999 | Test Acc: 0.9683
+testing noised: 397/900
+Test Loss: 0.0897 | Test Acc: 0.9726
+testing noised: 398/900
+Test Loss: 0.1001 | Test Acc: 0.9691
+testing noised: 399/900
+Test Loss: 0.0998 | Test Acc: 0.9691
+testing noised: 400/900
+Test Loss: 0.1021 | Test Acc: 0.9690
+testing noised: 401/900
+Test Loss: 0.0991 | Test Acc: 0.9669
+testing noised: 402/900
+Test Loss: 0.0999 | Test Acc: 0.9687
+testing noised: 403/900
+Test Loss: 0.0965 | Test Acc: 0.9711
+testing noised: 404/900
+Test Loss: 0.0998 | Test Acc: 0.9697
+testing noised: 405/900
+Test Loss: 0.0984 | Test Acc: 0.9696
+testing noised: 406/900
+Test Loss: 0.0885 | Test Acc: 0.9725
+testing noised: 407/900
+Test Loss: 0.0970 | Test Acc: 0.9683
+testing noised: 408/900
+Test Loss: 0.0987 | Test Acc: 0.9695
+testing noised: 409/900
+Test Loss: 0.0916 | Test Acc: 0.9739
+testing noised: 410/900
+Test Loss: 0.0908 | Test Acc: 0.9716
+testing noised: 411/900
+Test Loss: 0.1038 | Test Acc: 0.9663
+testing noised: 412/900
+Test Loss: 0.0978 | Test Acc: 0.9688
+testing noised: 413/900
+Test Loss: 0.0971 | Test Acc: 0.9705
+testing noised: 414/900
+Test Loss: 0.0994 | Test Acc: 0.9690
+testing noised: 415/900
+Test Loss: 0.0925 | Test Acc: 0.9719
+testing noised: 416/900
+Test Loss: 0.0938 | Test Acc: 0.9717
+testing noised: 417/900
+Test Loss: 0.0948 | Test Acc: 0.9726
+testing noised: 418/900
+Test Loss: 0.0909 | Test Acc: 0.9741
+testing noised: 419/900
+Test Loss: 0.1046 | Test Acc: 0.9675
+testing noised: 420/900
+Test Loss: 0.0973 | Test Acc: 0.9695
+testing noised: 421/900
+Test Loss: 0.0879 | Test Acc: 0.9733
+testing noised: 422/900
+Test Loss: 0.1013 | Test Acc: 0.9690
+testing noised: 423/900
+Test Loss: 0.0902 | Test Acc: 0.9712
+testing noised: 424/900
+Test Loss: 0.0947 | Test Acc: 0.9690
+testing noised: 425/900
+Test Loss: 0.0958 | Test Acc: 0.9680
+testing noised: 426/900
+Test Loss: 0.0924 | Test Acc: 0.9712
+testing noised: 427/900
+Test Loss: 0.0975 | Test Acc: 0.9701
+testing noised: 428/900
+Test Loss: 0.0985 | Test Acc: 0.9693
+testing noised: 429/900
+Test Loss: 0.1027 | Test Acc: 0.9670
+testing noised: 430/900
+Test Loss: 0.0896 | Test Acc: 0.9728
+testing noised: 431/900
+Test Loss: 0.0944 | Test Acc: 0.9714
+testing noised: 432/900
+Test Loss: 0.1004 | Test Acc: 0.9665
+testing noised: 433/900
+Test Loss: 0.0935 | Test Acc: 0.9689
+testing noised: 434/900
+Test Loss: 0.0991 | Test Acc: 0.9678
+testing noised: 435/900
+Test Loss: 0.0876 | Test Acc: 0.9737
+testing noised: 436/900
+Test Loss: 0.1005 | Test Acc: 0.9674
+testing noised: 437/900
+Test Loss: 0.1034 | Test Acc: 0.9666
+testing noised: 438/900
+Test Loss: 0.0949 | Test Acc: 0.9714
+testing noised: 439/900
+Test Loss: 0.0966 | Test Acc: 0.9701
+testing noised: 440/900
+Test Loss: 0.0903 | Test Acc: 0.9727
+testing noised: 441/900
+Test Loss: 0.0944 | Test Acc: 0.9694
+testing noised: 442/900
+Test Loss: 0.1018 | Test Acc: 0.9668
+testing noised: 443/900
+Test Loss: 0.0995 | Test Acc: 0.9676
+testing noised: 444/900
+Test Loss: 0.0962 | Test Acc: 0.9702
+testing noised: 445/900
+Test Loss: 0.0994 | Test Acc: 0.9680
+testing noised: 446/900
+Test Loss: 0.0968 | Test Acc: 0.9700
+testing noised: 447/900
+Test Loss: 0.1014 | Test Acc: 0.9699
+testing noised: 448/900
+Test Loss: 0.0949 | Test Acc: 0.9714
+testing noised: 449/900
+Test Loss: 0.1040 | Test Acc: 0.9671
+testing noised: 450/900
+Test Loss: 0.0968 | Test Acc: 0.9696
+testing noised: 451/900
+Test Loss: 0.0914 | Test Acc: 0.9712
+testing noised: 452/900
+Test Loss: 0.0965 | Test Acc: 0.9695
+testing noised: 453/900
+Test Loss: 0.0941 | Test Acc: 0.9710
+testing noised: 454/900
+Test Loss: 0.1021 | Test Acc: 0.9671
+testing noised: 455/900
+Test Loss: 0.1057 | Test Acc: 0.9668
+testing noised: 456/900
+Test Loss: 0.0923 | Test Acc: 0.9716
+testing noised: 457/900
+Test Loss: 0.0947 | Test Acc: 0.9693
+testing noised: 458/900
+Test Loss: 0.0950 | Test Acc: 0.9698
+testing noised: 459/900
+Test Loss: 0.1032 | Test Acc: 0.9679
+testing noised: 460/900
+Test Loss: 0.1114 | Test Acc: 0.9641
+testing noised: 461/900
+Test Loss: 0.0893 | Test Acc: 0.9728
+testing noised: 462/900
+Test Loss: 0.0981 | Test Acc: 0.9690
+testing noised: 463/900
+Test Loss: 0.0983 | Test Acc: 0.9708
+testing noised: 464/900
+Test Loss: 0.0935 | Test Acc: 0.9704
+testing noised: 465/900
+Test Loss: 0.0963 | Test Acc: 0.9704
+testing noised: 466/900
+Test Loss: 0.0916 | Test Acc: 0.9703
+testing noised: 467/900
+Test Loss: 0.0912 | Test Acc: 0.9705
+testing noised: 468/900
+Test Loss: 0.0964 | Test Acc: 0.9676
+testing noised: 469/900
+Test Loss: 0.0933 | Test Acc: 0.9713
+testing noised: 470/900
+Test Loss: 0.1137 | Test Acc: 0.9635
+testing noised: 471/900
+Test Loss: 0.1013 | Test Acc: 0.9666
+testing noised: 472/900
+Test Loss: 0.0982 | Test Acc: 0.9683
+testing noised: 473/900
+Test Loss: 0.0981 | Test Acc: 0.9677
+testing noised: 474/900
+Test Loss: 0.1024 | Test Acc: 0.9679
+testing noised: 475/900
+Test Loss: 0.0937 | Test Acc: 0.9692
+testing noised: 476/900
+Test Loss: 0.0935 | Test Acc: 0.9697
+testing noised: 477/900
+Test Loss: 0.1015 | Test Acc: 0.9687
+testing noised: 478/900
+Test Loss: 0.0966 | Test Acc: 0.9713
+testing noised: 479/900
+Test Loss: 0.0960 | Test Acc: 0.9700
+testing noised: 480/900
+Test Loss: 0.1048 | Test Acc: 0.9665
+testing noised: 481/900
+Test Loss: 0.0980 | Test Acc: 0.9698
+testing noised: 482/900
+Test Loss: 0.0945 | Test Acc: 0.9691
+testing noised: 483/900
+Test Loss: 0.0881 | Test Acc: 0.9737
+testing noised: 484/900
+Test Loss: 0.0952 | Test Acc: 0.9703
+testing noised: 485/900
+Test Loss: 0.0961 | Test Acc: 0.9694
+testing noised: 486/900
+Test Loss: 0.0936 | Test Acc: 0.9706
+testing noised: 487/900
+Test Loss: 0.0934 | Test Acc: 0.9696
+testing noised: 488/900
+Test Loss: 0.0971 | Test Acc: 0.9697
+testing noised: 489/900
+Test Loss: 0.0954 | Test Acc: 0.9688
+testing noised: 490/900
+Test Loss: 0.1022 | Test Acc: 0.9681
+testing noised: 491/900
+Test Loss: 0.0991 | Test Acc: 0.9706
+testing noised: 492/900
+Test Loss: 0.1022 | Test Acc: 0.9685
+testing noised: 493/900
+Test Loss: 0.0963 | Test Acc: 0.9694
+testing noised: 494/900
+Test Loss: 0.0945 | Test Acc: 0.9705
+testing noised: 495/900
+Test Loss: 0.1004 | Test Acc: 0.9682
+testing noised: 496/900
+Test Loss: 0.0970 | Test Acc: 0.9687
+testing noised: 497/900
+Test Loss: 0.0982 | Test Acc: 0.9690
+testing noised: 498/900
+Test Loss: 0.1100 | Test Acc: 0.9647
+testing noised: 499/900
+Test Loss: 0.0913 | Test Acc: 0.9723
+testing noised: 500/900
+Test Loss: 0.0898 | Test Acc: 0.9719
+testing noised: 501/900
+Test Loss: 0.0949 | Test Acc: 0.9692
+testing noised: 502/900
+Test Loss: 0.0939 | Test Acc: 0.9699
+testing noised: 503/900
+Test Loss: 0.0993 | Test Acc: 0.9681
+testing noised: 504/900
+Test Loss: 0.1049 | Test Acc: 0.9676
+testing noised: 505/900
+Test Loss: 0.0970 | Test Acc: 0.9674
+testing noised: 506/900
+Test Loss: 0.0997 | Test Acc: 0.9697
+testing noised: 507/900
+Test Loss: 0.1031 | Test Acc: 0.9685
+testing noised: 508/900
+Test Loss: 0.0915 | Test Acc: 0.9750
+testing noised: 509/900
+Test Loss: 0.0943 | Test Acc: 0.9706
+testing noised: 510/900
+Test Loss: 0.0971 | Test Acc: 0.9700
+testing noised: 511/900
+Test Loss: 0.1076 | Test Acc: 0.9658
+testing noised: 512/900
+Test Loss: 0.0985 | Test Acc: 0.9694
+testing noised: 513/900
+Test Loss: 0.0963 | Test Acc: 0.9720
+testing noised: 514/900
+Test Loss: 0.0960 | Test Acc: 0.9699
+testing noised: 515/900
+Test Loss: 0.1191 | Test Acc: 0.9623
+testing noised: 516/900
+Test Loss: 0.0926 | Test Acc: 0.9711
+testing noised: 517/900
+Test Loss: 0.0932 | Test Acc: 0.9705
+testing noised: 518/900
+Test Loss: 0.1030 | Test Acc: 0.9665
+testing noised: 519/900
+Test Loss: 0.0948 | Test Acc: 0.9722
+testing noised: 520/900
+Test Loss: 0.1005 | Test Acc: 0.9668
+testing noised: 521/900
+Test Loss: 0.0906 | Test Acc: 0.9726
+testing noised: 522/900
+Test Loss: 0.0954 | Test Acc: 0.9711
+testing noised: 523/900
+Test Loss: 0.1039 | Test Acc: 0.9672
+testing noised: 524/900
+Test Loss: 0.0928 | Test Acc: 0.9708
+testing noised: 525/900
+Test Loss: 0.1018 | Test Acc: 0.9693
+testing noised: 526/900
+Test Loss: 0.0990 | Test Acc: 0.9686
+testing noised: 527/900
+Test Loss: 0.1096 | Test Acc: 0.9653
+testing noised: 528/900
+Test Loss: 0.0961 | Test Acc: 0.9707
+testing noised: 529/900
+Test Loss: 0.0950 | Test Acc: 0.9694
+testing noised: 530/900
+Test Loss: 0.0966 | Test Acc: 0.9712
+testing noised: 531/900
+Test Loss: 0.0980 | Test Acc: 0.9702
+testing noised: 532/900
+Test Loss: 0.0942 | Test Acc: 0.9682
+testing noised: 533/900
+Test Loss: 0.0919 | Test Acc: 0.9718
+testing noised: 534/900
+Test Loss: 0.0924 | Test Acc: 0.9705
+testing noised: 535/900
+Test Loss: 0.0934 | Test Acc: 0.9711
+testing noised: 536/900
+Test Loss: 0.0921 | Test Acc: 0.9711
+testing noised: 537/900
+Test Loss: 0.0946 | Test Acc: 0.9700
+testing noised: 538/900
+Test Loss: 0.1045 | Test Acc: 0.9649
+testing noised: 539/900
+Test Loss: 0.0881 | Test Acc: 0.9721
+testing noised: 540/900
+Test Loss: 0.0946 | Test Acc: 0.9711
+testing noised: 541/900
+Test Loss: 0.0977 | Test Acc: 0.9695
+testing noised: 542/900
+Test Loss: 0.0966 | Test Acc: 0.9712
+testing noised: 543/900
+Test Loss: 0.0940 | Test Acc: 0.9708
+testing noised: 544/900
+Test Loss: 0.1015 | Test Acc: 0.9697
+testing noised: 545/900
+Test Loss: 0.0993 | Test Acc: 0.9682
+testing noised: 546/900
+Test Loss: 0.1041 | Test Acc: 0.9673
+testing noised: 547/900
+Test Loss: 0.0934 | Test Acc: 0.9702
+testing noised: 548/900
+Test Loss: 0.0977 | Test Acc: 0.9704
+testing noised: 549/900
+Test Loss: 0.0978 | Test Acc: 0.9713
+testing noised: 550/900
+Test Loss: 0.1034 | Test Acc: 0.9671
+testing noised: 551/900
+Test Loss: 0.0915 | Test Acc: 0.9721
+testing noised: 552/900
+Test Loss: 0.1064 | Test Acc: 0.9661
+testing noised: 553/900
+Test Loss: 0.0912 | Test Acc: 0.9706
+testing noised: 554/900
+Test Loss: 0.0937 | Test Acc: 0.9714
+testing noised: 555/900
+Test Loss: 0.1147 | Test Acc: 0.9631
+testing noised: 556/900
+Test Loss: 0.0959 | Test Acc: 0.9694
+testing noised: 557/900
+Test Loss: 0.1063 | Test Acc: 0.9669
+testing noised: 558/900
+Test Loss: 0.1002 | Test Acc: 0.9712
+testing noised: 559/900
+Test Loss: 0.0969 | Test Acc: 0.9719
+testing noised: 560/900
+Test Loss: 0.0975 | Test Acc: 0.9693
+testing noised: 561/900
+Test Loss: 0.0962 | Test Acc: 0.9697
+testing noised: 562/900
+Test Loss: 0.0975 | Test Acc: 0.9694
+testing noised: 563/900
+Test Loss: 0.0949 | Test Acc: 0.9692
+testing noised: 564/900
+Test Loss: 0.0996 | Test Acc: 0.9692
+testing noised: 565/900
+Test Loss: 0.0951 | Test Acc: 0.9712
+testing noised: 566/900
+Test Loss: 0.0975 | Test Acc: 0.9713
+testing noised: 567/900
+Test Loss: 0.0919 | Test Acc: 0.9702
+testing noised: 568/900
+Test Loss: 0.0914 | Test Acc: 0.9728
+testing noised: 569/900
+Test Loss: 0.0974 | Test Acc: 0.9689
+testing noised: 570/900
+Test Loss: 0.0945 | Test Acc: 0.9708
+testing noised: 571/900
+Test Loss: 0.0973 | Test Acc: 0.9692
+testing noised: 572/900
+Test Loss: 0.0990 | Test Acc: 0.9696
+testing noised: 573/900
+Test Loss: 0.0928 | Test Acc: 0.9707
+testing noised: 574/900
+Test Loss: 0.0971 | Test Acc: 0.9705
+testing noised: 575/900
+Test Loss: 0.0994 | Test Acc: 0.9690
+testing noised: 576/900
+Test Loss: 0.0945 | Test Acc: 0.9703
+testing noised: 577/900
+Test Loss: 0.0946 | Test Acc: 0.9713
+testing noised: 578/900
+Test Loss: 0.0994 | Test Acc: 0.9680
+testing noised: 579/900
+Test Loss: 0.0969 | Test Acc: 0.9681
+testing noised: 580/900
+Test Loss: 0.0894 | Test Acc: 0.9712
+testing noised: 581/900
+Test Loss: 0.1071 | Test Acc: 0.9664
+testing noised: 582/900
+Test Loss: 0.1091 | Test Acc: 0.9650
+testing noised: 583/900
+Test Loss: 0.0969 | Test Acc: 0.9685
+testing noised: 584/900
+Test Loss: 0.0944 | Test Acc: 0.9702
+testing noised: 585/900
+Test Loss: 0.1010 | Test Acc: 0.9683
+testing noised: 586/900
+Test Loss: 0.1025 | Test Acc: 0.9664
+testing noised: 587/900
+Test Loss: 0.0987 | Test Acc: 0.9687
+testing noised: 588/900
+Test Loss: 0.0956 | Test Acc: 0.9680
+testing noised: 589/900
+Test Loss: 0.1001 | Test Acc: 0.9672
+testing noised: 590/900
+Test Loss: 0.0987 | Test Acc: 0.9698
+testing noised: 591/900
+Test Loss: 0.0996 | Test Acc: 0.9722
+testing noised: 592/900
+Test Loss: 0.0975 | Test Acc: 0.9683
+testing noised: 593/900
+Test Loss: 0.1141 | Test Acc: 0.9625
+testing noised: 594/900
+Test Loss: 0.0899 | Test Acc: 0.9714
+testing noised: 595/900
+Test Loss: 0.1042 | Test Acc: 0.9651
+testing noised: 596/900
+Test Loss: 0.0958 | Test Acc: 0.9717
+testing noised: 597/900
+Test Loss: 0.0969 | Test Acc: 0.9693
+testing noised: 598/900
+Test Loss: 0.1082 | Test Acc: 0.9665
+testing noised: 599/900
+Test Loss: 0.1009 | Test Acc: 0.9684
+testing noised: 600/900
+Test Loss: 0.0931 | Test Acc: 0.9722
+testing noised: 601/900
+Test Loss: 0.1223 | Test Acc: 0.9613
+testing noised: 602/900
+Test Loss: 1.1908 | Test Acc: 0.6133
+testing noised: 603/900
+Test Loss: 0.1353 | Test Acc: 0.9565
+testing noised: 604/900
+Test Loss: 0.1383 | Test Acc: 0.9569
+testing noised: 605/900
+Test Loss: 0.1159 | Test Acc: 0.9645
+testing noised: 606/900
+Test Loss: 0.1901 | Test Acc: 0.9396
+testing noised: 607/900
+Test Loss: 0.1304 | Test Acc: 0.9587
+testing noised: 608/900
+Test Loss: 0.1386 | Test Acc: 0.9592
+testing noised: 609/900
+Test Loss: 0.1654 | Test Acc: 0.9504
+testing noised: 610/900
+Test Loss: 0.1582 | Test Acc: 0.9471
+testing noised: 611/900
+Test Loss: 0.1224 | Test Acc: 0.9628
+testing noised: 612/900
+Test Loss: 0.1577 | Test Acc: 0.9525
+testing noised: 613/900
+Test Loss: 0.1240 | Test Acc: 0.9596
+testing noised: 614/900
+Test Loss: 0.1901 | Test Acc: 0.9395
+testing noised: 615/900
+Test Loss: 0.1445 | Test Acc: 0.9521
+testing noised: 616/900
+Test Loss: 0.1387 | Test Acc: 0.9555
+testing noised: 617/900
+Test Loss: 0.1733 | Test Acc: 0.9427
+testing noised: 618/900
+Test Loss: 0.1377 | Test Acc: 0.9581
+testing noised: 619/900
+Test Loss: 0.1496 | Test Acc: 0.9534
+testing noised: 620/900
+Test Loss: 0.1295 | Test Acc: 0.9625
+testing noised: 621/900
+Test Loss: 0.1345 | Test Acc: 0.9575
+testing noised: 622/900
+Test Loss: 0.1236 | Test Acc: 0.9591
+testing noised: 623/900
+Test Loss: 0.1141 | Test Acc: 0.9656
+testing noised: 624/900
+Test Loss: 0.1554 | Test Acc: 0.9504
+testing noised: 625/900
+Test Loss: 0.1019 | Test Acc: 0.9697
+testing noised: 626/900
+Test Loss: 0.1373 | Test Acc: 0.9591
+testing noised: 627/900
+Test Loss: 0.1238 | Test Acc: 0.9629
+testing noised: 628/900
+Test Loss: 0.1293 | Test Acc: 0.9619
+testing noised: 629/900
+Test Loss: 0.1423 | Test Acc: 0.9574
+testing noised: 630/900
+Test Loss: 0.1463 | Test Acc: 0.9561
+testing noised: 631/900
+Test Loss: 0.1438 | Test Acc: 0.9543
+testing noised: 632/900
+Test Loss: 0.1402 | Test Acc: 0.9587
+testing noised: 633/900
+Test Loss: 0.1244 | Test Acc: 0.9585
+testing noised: 634/900
+Test Loss: 0.1298 | Test Acc: 0.9582
+testing noised: 635/900
+Test Loss: 0.1441 | Test Acc: 0.9533
+testing noised: 636/900
+Test Loss: 0.1583 | Test Acc: 0.9485
+testing noised: 637/900
+Test Loss: 0.1591 | Test Acc: 0.9523
+testing noised: 638/900
+Test Loss: 0.1505 | Test Acc: 0.9566
+testing noised: 639/900
+Test Loss: 0.1760 | Test Acc: 0.9442
+testing noised: 640/900
+Test Loss: 0.1209 | Test Acc: 0.9638
+testing noised: 641/900
+Test Loss: 0.1813 | Test Acc: 0.9427
+testing noised: 642/900
+Test Loss: 0.1317 | Test Acc: 0.9578
+testing noised: 643/900
+Test Loss: 0.1422 | Test Acc: 0.9538
+testing noised: 644/900
+Test Loss: 0.1199 | Test Acc: 0.9624
+testing noised: 645/900
+Test Loss: 0.1257 | Test Acc: 0.9614
+testing noised: 646/900
+Test Loss: 0.1492 | Test Acc: 0.9501
+testing noised: 647/900
+Test Loss: 0.1108 | Test Acc: 0.9650
+testing noised: 648/900
+Test Loss: 0.1288 | Test Acc: 0.9601
+testing noised: 649/900
+Test Loss: 0.1204 | Test Acc: 0.9647
+testing noised: 650/900
+Test Loss: 0.1456 | Test Acc: 0.9520
+testing noised: 651/900
+Test Loss: 0.1303 | Test Acc: 0.9591
+testing noised: 652/900
+Test Loss: 0.1412 | Test Acc: 0.9545
+testing noised: 653/900
+Test Loss: 0.1321 | Test Acc: 0.9561
+testing noised: 654/900
+Test Loss: 0.1562 | Test Acc: 0.9510
+testing noised: 655/900
+Test Loss: 0.1507 | Test Acc: 0.9510
+testing noised: 656/900
+Test Loss: 0.1070 | Test Acc: 0.9669
+testing noised: 657/900
+Test Loss: 0.1105 | Test Acc: 0.9673
+testing noised: 658/900
+Test Loss: 0.1450 | Test Acc: 0.9547
+testing noised: 659/900
+Test Loss: 0.1391 | Test Acc: 0.9590
+testing noised: 660/900
+Test Loss: 0.1323 | Test Acc: 0.9584
+testing noised: 661/900
+Test Loss: 0.1411 | Test Acc: 0.9545
+testing noised: 662/900
+Test Loss: 0.1170 | Test Acc: 0.9648
+testing noised: 663/900
+Test Loss: 0.1274 | Test Acc: 0.9619
+testing noised: 664/900
+Test Loss: 0.1241 | Test Acc: 0.9605
+testing noised: 665/900
+Test Loss: 0.2694 | Test Acc: 0.9115
+testing noised: 666/900
+Test Loss: 0.1459 | Test Acc: 0.9529
+testing noised: 667/900
+Test Loss: 0.1209 | Test Acc: 0.9610
+testing noised: 668/900
+Test Loss: 0.1224 | Test Acc: 0.9623
+testing noised: 669/900
+Test Loss: 0.1864 | Test Acc: 0.9419
+testing noised: 670/900
+Test Loss: 0.1515 | Test Acc: 0.9526
+testing noised: 671/900
+Test Loss: 0.1357 | Test Acc: 0.9587
+testing noised: 672/900
+Test Loss: 0.1487 | Test Acc: 0.9544
+testing noised: 673/900
+Test Loss: 0.1559 | Test Acc: 0.9529
+testing noised: 674/900
+Test Loss: 0.1229 | Test Acc: 0.9633
+testing noised: 675/900
+Test Loss: 0.1509 | Test Acc: 0.9536
+testing noised: 676/900
+Test Loss: 0.1595 | Test Acc: 0.9492
+testing noised: 677/900
+Test Loss: 0.1391 | Test Acc: 0.9581
+testing noised: 678/900
+Test Loss: 0.1616 | Test Acc: 0.9485
+testing noised: 679/900
+Test Loss: 0.1337 | Test Acc: 0.9581
+testing noised: 680/900
+Test Loss: 0.1644 | Test Acc: 0.9491
+testing noised: 681/900
+Test Loss: 0.1437 | Test Acc: 0.9552
+testing noised: 682/900
+Test Loss: 0.1604 | Test Acc: 0.9511
+testing noised: 683/900
+Test Loss: 0.1149 | Test Acc: 0.9640
+testing noised: 684/900
+Test Loss: 0.1523 | Test Acc: 0.9545
+testing noised: 685/900
+Test Loss: 0.1621 | Test Acc: 0.9471
+testing noised: 686/900
+Test Loss: 0.1257 | Test Acc: 0.9609
+testing noised: 687/900
+Test Loss: 0.1195 | Test Acc: 0.9643
+testing noised: 688/900
+Test Loss: 0.1441 | Test Acc: 0.9527
+testing noised: 689/900
+Test Loss: 0.1300 | Test Acc: 0.9600
+testing noised: 690/900
+Test Loss: 0.1396 | Test Acc: 0.9573
+testing noised: 691/900
+Test Loss: 0.1263 | Test Acc: 0.9603
+testing noised: 692/900
+Test Loss: 0.1449 | Test Acc: 0.9530
+testing noised: 693/900
+Test Loss: 0.1560 | Test Acc: 0.9520
+testing noised: 694/900
+Test Loss: 0.1255 | Test Acc: 0.9604
+testing noised: 695/900
+Test Loss: 0.1247 | Test Acc: 0.9598
+testing noised: 696/900
+Test Loss: 0.1402 | Test Acc: 0.9550
+testing noised: 697/900
+Test Loss: 0.1216 | Test Acc: 0.9633
+testing noised: 698/900
+Test Loss: 0.1337 | Test Acc: 0.9607
+testing noised: 699/900
+Test Loss: 0.1093 | Test Acc: 0.9679
+testing noised: 700/900
+Test Loss: 0.1355 | Test Acc: 0.9567
+testing noised: 701/900
+Test Loss: 0.1174 | Test Acc: 0.9619
+testing noised: 702/900
+Test Loss: 0.1723 | Test Acc: 0.9456
+testing noised: 703/900
+Test Loss: 0.1630 | Test Acc: 0.9438
+testing noised: 704/900
+Test Loss: 0.1358 | Test Acc: 0.9589
+testing noised: 705/900
+Test Loss: 0.1474 | Test Acc: 0.9507
+testing noised: 706/900
+Test Loss: 0.1210 | Test Acc: 0.9627
+testing noised: 707/900
+Test Loss: 0.1165 | Test Acc: 0.9634
+testing noised: 708/900
+Test Loss: 0.1383 | Test Acc: 0.9572
+testing noised: 709/900
+Test Loss: 0.1793 | Test Acc: 0.9429
+testing noised: 710/900
+Test Loss: 0.1213 | Test Acc: 0.9650
+testing noised: 711/900
+Test Loss: 0.1121 | Test Acc: 0.9642
+testing noised: 712/900
+Test Loss: 0.1426 | Test Acc: 0.9558
+testing noised: 713/900
+Test Loss: 0.1205 | Test Acc: 0.9630
+testing noised: 714/900
+Test Loss: 0.1287 | Test Acc: 0.9601
+testing noised: 715/900
+Test Loss: 0.1264 | Test Acc: 0.9603
+testing noised: 716/900
+Test Loss: 0.1379 | Test Acc: 0.9555
+testing noised: 717/900
+Test Loss: 0.1452 | Test Acc: 0.9544
+testing noised: 718/900
+Test Loss: 0.1510 | Test Acc: 0.9524
+testing noised: 719/900
+Test Loss: 0.1266 | Test Acc: 0.9624
+testing noised: 720/900
+Test Loss: 0.1618 | Test Acc: 0.9495
+testing noised: 721/900
+Test Loss: 0.1590 | Test Acc: 0.9482
+testing noised: 722/900
+Test Loss: 0.1447 | Test Acc: 0.9564
+testing noised: 723/900
+Test Loss: 0.1796 | Test Acc: 0.9403
+testing noised: 724/900
+Test Loss: 0.1380 | Test Acc: 0.9568
+testing noised: 725/900
+Test Loss: 0.1398 | Test Acc: 0.9551
+testing noised: 726/900
+Test Loss: 0.1312 | Test Acc: 0.9614
+testing noised: 727/900
+Test Loss: 0.1247 | Test Acc: 0.9637
+testing noised: 728/900
+Test Loss: 0.1349 | Test Acc: 0.9597
+testing noised: 729/900
+Test Loss: 0.1174 | Test Acc: 0.9646
+testing noised: 730/900
+Test Loss: 0.1645 | Test Acc: 0.9398
+testing noised: 731/900
+Test Loss: 0.1519 | Test Acc: 0.9521
+testing noised: 732/900
+Test Loss: 0.1278 | Test Acc: 0.9586
+testing noised: 733/900
+Test Loss: 0.1254 | Test Acc: 0.9591
+testing noised: 734/900
+Test Loss: 0.1551 | Test Acc: 0.9508
+testing noised: 735/900
+Test Loss: 0.1210 | Test Acc: 0.9641
+testing noised: 736/900
+Test Loss: 0.1187 | Test Acc: 0.9646
+testing noised: 737/900
+Test Loss: 0.1544 | Test Acc: 0.9488
+testing noised: 738/900
+Test Loss: 0.1108 | Test Acc: 0.9644
+testing noised: 739/900
+Test Loss: 0.1578 | Test Acc: 0.9501
+testing noised: 740/900
+Test Loss: 0.1442 | Test Acc: 0.9563
+testing noised: 741/900
+Test Loss: 0.1226 | Test Acc: 0.9620
+testing noised: 742/900
+Test Loss: 0.1062 | Test Acc: 0.9666
+testing noised: 743/900
+Test Loss: 0.1850 | Test Acc: 0.9380
+testing noised: 744/900
+Test Loss: 0.1274 | Test Acc: 0.9602
+testing noised: 745/900
+Test Loss: 0.1302 | Test Acc: 0.9615
+testing noised: 746/900
+Test Loss: 0.1298 | Test Acc: 0.9569
+testing noised: 747/900
+Test Loss: 0.1366 | Test Acc: 0.9578
+testing noised: 748/900
+Test Loss: 0.1211 | Test Acc: 0.9625
+testing noised: 749/900
+Test Loss: 0.1265 | Test Acc: 0.9587
+testing noised: 750/900
+Test Loss: 0.1430 | Test Acc: 0.9538
+testing noised: 751/900
+Test Loss: 0.1299 | Test Acc: 0.9595
+testing noised: 752/900
+Test Loss: 0.1273 | Test Acc: 0.9602
+testing noised: 753/900
+Test Loss: 0.1467 | Test Acc: 0.9525
+testing noised: 754/900
+Test Loss: 0.1452 | Test Acc: 0.9575
+testing noised: 755/900
+Test Loss: 0.1149 | Test Acc: 0.9638
+testing noised: 756/900
+Test Loss: 0.1219 | Test Acc: 0.9591
+testing noised: 757/900
+Test Loss: 0.1429 | Test Acc: 0.9554
+testing noised: 758/900
+Test Loss: 0.1284 | Test Acc: 0.9577
+testing noised: 759/900
+Test Loss: 0.1641 | Test Acc: 0.9483
+testing noised: 760/900
+Test Loss: 0.1351 | Test Acc: 0.9580
+testing noised: 761/900
+Test Loss: 0.1274 | Test Acc: 0.9577
+testing noised: 762/900
+Test Loss: 0.1513 | Test Acc: 0.9538
+testing noised: 763/900
+Test Loss: 0.1325 | Test Acc: 0.9614
+testing noised: 764/900
+Test Loss: 0.1532 | Test Acc: 0.9516
+testing noised: 765/900
+Test Loss: 0.1232 | Test Acc: 0.9626
+testing noised: 766/900
+Test Loss: 0.1499 | Test Acc: 0.9524
+testing noised: 767/900
+Test Loss: 0.1224 | Test Acc: 0.9615
+testing noised: 768/900
+Test Loss: 0.1059 | Test Acc: 0.9675
+testing noised: 769/900
+Test Loss: 0.1317 | Test Acc: 0.9567
+testing noised: 770/900
+Test Loss: 0.1268 | Test Acc: 0.9598
+testing noised: 771/900
+Test Loss: 0.1479 | Test Acc: 0.9532
+testing noised: 772/900
+Test Loss: 0.1733 | Test Acc: 0.9445
+testing noised: 773/900
+Test Loss: 0.1225 | Test Acc: 0.9607
+testing noised: 774/900
+Test Loss: 0.1915 | Test Acc: 0.9401
+testing noised: 775/900
+Test Loss: 0.1345 | Test Acc: 0.9582
+testing noised: 776/900
+Test Loss: 0.1330 | Test Acc: 0.9580
+testing noised: 777/900
+Test Loss: 0.1186 | Test Acc: 0.9639
+testing noised: 778/900
+Test Loss: 0.1151 | Test Acc: 0.9637
+testing noised: 779/900
+Test Loss: 0.1462 | Test Acc: 0.9542
+testing noised: 780/900
+Test Loss: 0.1515 | Test Acc: 0.9538
+testing noised: 781/900
+Test Loss: 0.1279 | Test Acc: 0.9582
+testing noised: 782/900
+Test Loss: 0.1449 | Test Acc: 0.9541
+testing noised: 783/900
+Test Loss: 0.1247 | Test Acc: 0.9623
+testing noised: 784/900
+Test Loss: 0.1222 | Test Acc: 0.9636
+testing noised: 785/900
+Test Loss: 0.1266 | Test Acc: 0.9619
+testing noised: 786/900
+Test Loss: 0.1333 | Test Acc: 0.9618
+testing noised: 787/900
+Test Loss: 0.1402 | Test Acc: 0.9548
+testing noised: 788/900
+Test Loss: 0.1539 | Test Acc: 0.9518
+testing noised: 789/900
+Test Loss: 0.1527 | Test Acc: 0.9537
+testing noised: 790/900
+Test Loss: 0.1454 | Test Acc: 0.9528
+testing noised: 791/900
+Test Loss: 0.1293 | Test Acc: 0.9588
+testing noised: 792/900
+Test Loss: 0.1222 | Test Acc: 0.9633
+testing noised: 793/900
+Test Loss: 0.1367 | Test Acc: 0.9593
+testing noised: 794/900
+Test Loss: 0.1219 | Test Acc: 0.9626
+testing noised: 795/900
+Test Loss: 0.1346 | Test Acc: 0.9594
+testing noised: 796/900
+Test Loss: 0.1369 | Test Acc: 0.9569
+testing noised: 797/900
+Test Loss: 0.1373 | Test Acc: 0.9578
+testing noised: 798/900
+Test Loss: 0.1399 | Test Acc: 0.9587
+testing noised: 799/900
+Test Loss: 0.1322 | Test Acc: 0.9591
+testing noised: 800/900
+Test Loss: 0.1255 | Test Acc: 0.9594
+testing noised: 801/900
+Test Loss: 0.1529 | Test Acc: 0.9523
+testing noised: 802/900
+Test Loss: 0.1333 | Test Acc: 0.9588
+testing noised: 803/900
+Test Loss: 0.1595 | Test Acc: 0.9487
+testing noised: 804/900
+Test Loss: 0.1228 | Test Acc: 0.9636
+testing noised: 805/900
+Test Loss: 0.1518 | Test Acc: 0.9536
+testing noised: 806/900
+Test Loss: 0.1509 | Test Acc: 0.9512
+testing noised: 807/900
+Test Loss: 0.1412 | Test Acc: 0.9567
+testing noised: 808/900
+Test Loss: 0.1442 | Test Acc: 0.9533
+testing noised: 809/900
+Test Loss: 0.1229 | Test Acc: 0.9607
+testing noised: 810/900
+Test Loss: 0.1331 | Test Acc: 0.9589
+testing noised: 811/900
+Test Loss: 0.1551 | Test Acc: 0.9523
+testing noised: 812/900
+Test Loss: 0.1337 | Test Acc: 0.9591
+testing noised: 813/900
+Test Loss: 0.1761 | Test Acc: 0.9428
+testing noised: 814/900
+Test Loss: 0.1575 | Test Acc: 0.9498
+testing noised: 815/900
+Test Loss: 0.1359 | Test Acc: 0.9583
+testing noised: 816/900
+Test Loss: 0.2332 | Test Acc: 0.9230
+testing noised: 817/900
+Test Loss: 0.1373 | Test Acc: 0.9593
+testing noised: 818/900
+Test Loss: 0.1295 | Test Acc: 0.9589
+testing noised: 819/900
+Test Loss: 0.1248 | Test Acc: 0.9628
+testing noised: 820/900
+Test Loss: 0.1405 | Test Acc: 0.9581
+testing noised: 821/900
+Test Loss: 0.1635 | Test Acc: 0.9477
+testing noised: 822/900
+Test Loss: 0.1423 | Test Acc: 0.9575
+testing noised: 823/900
+Test Loss: 0.1196 | Test Acc: 0.9631
+testing noised: 824/900
+Test Loss: 0.1803 | Test Acc: 0.9431
+testing noised: 825/900
+Test Loss: 0.1234 | Test Acc: 0.9606
+testing noised: 826/900
+Test Loss: 0.1931 | Test Acc: 0.9343
+testing noised: 827/900
+Test Loss: 0.1454 | Test Acc: 0.9562
+testing noised: 828/900
+Test Loss: 0.1604 | Test Acc: 0.9502
+testing noised: 829/900
+Test Loss: 0.1154 | Test Acc: 0.9649
+testing noised: 830/900
+Test Loss: 0.1384 | Test Acc: 0.9579
+testing noised: 831/900
+Test Loss: 0.1174 | Test Acc: 0.9673
+testing noised: 832/900
+Test Loss: 0.1352 | Test Acc: 0.9610
+testing noised: 833/900
+Test Loss: 0.1334 | Test Acc: 0.9570
+testing noised: 834/900
+Test Loss: 0.1487 | Test Acc: 0.9494
+testing noised: 835/900
+Test Loss: 0.1183 | Test Acc: 0.9627
+testing noised: 836/900
+Test Loss: 0.1107 | Test Acc: 0.9678
+testing noised: 837/900
+Test Loss: 0.1355 | Test Acc: 0.9570
+testing noised: 838/900
+Test Loss: 0.1414 | Test Acc: 0.9533
+testing noised: 839/900
+Test Loss: 0.1452 | Test Acc: 0.9544
+testing noised: 840/900
+Test Loss: 0.1524 | Test Acc: 0.9493
+testing noised: 841/900
+Test Loss: 0.1433 | Test Acc: 0.9547
+testing noised: 842/900
+Test Loss: 0.1281 | Test Acc: 0.9608
+testing noised: 843/900
+Test Loss: 0.1470 | Test Acc: 0.9541
+testing noised: 844/900
+Test Loss: 0.1339 | Test Acc: 0.9591
+testing noised: 845/900
+Test Loss: 0.1645 | Test Acc: 0.9505
+testing noised: 846/900
+Test Loss: 0.1495 | Test Acc: 0.9517
+testing noised: 847/900
+Test Loss: 0.1317 | Test Acc: 0.9600
+testing noised: 848/900
+Test Loss: 0.1298 | Test Acc: 0.9598
+testing noised: 849/900
+Test Loss: 0.1102 | Test Acc: 0.9652
+testing noised: 850/900
+Test Loss: 0.1179 | Test Acc: 0.9646
+testing noised: 851/900
+Test Loss: 0.1236 | Test Acc: 0.9618
+testing noised: 852/900
+Test Loss: 0.1482 | Test Acc: 0.9531
+testing noised: 853/900
+Test Loss: 0.1923 | Test Acc: 0.9370
+testing noised: 854/900
+Test Loss: 0.1549 | Test Acc: 0.9490
+testing noised: 855/900
+Test Loss: 0.1282 | Test Acc: 0.9599
+testing noised: 856/900
+Test Loss: 0.2459 | Test Acc: 0.9199
+testing noised: 857/900
+Test Loss: 0.1223 | Test Acc: 0.9616
+testing noised: 858/900
+Test Loss: 0.1267 | Test Acc: 0.9585
+testing noised: 859/900
+Test Loss: 0.1505 | Test Acc: 0.9528
+testing noised: 860/900
+Test Loss: 0.1521 | Test Acc: 0.9548
+testing noised: 861/900
+Test Loss: 0.1363 | Test Acc: 0.9568
+testing noised: 862/900
+Test Loss: 0.1336 | Test Acc: 0.9576
+testing noised: 863/900
+Test Loss: 0.1334 | Test Acc: 0.9628
+testing noised: 864/900
+Test Loss: 0.1526 | Test Acc: 0.9529
+testing noised: 865/900
+Test Loss: 0.1309 | Test Acc: 0.9593
+testing noised: 866/900
+Test Loss: 0.1258 | Test Acc: 0.9587
+testing noised: 867/900
+Test Loss: 0.1594 | Test Acc: 0.9511
+testing noised: 868/900
+Test Loss: 0.1488 | Test Acc: 0.9522
+testing noised: 869/900
+Test Loss: 0.1142 | Test Acc: 0.9639
+testing noised: 870/900
+Test Loss: 0.1199 | Test Acc: 0.9639
+testing noised: 871/900
+Test Loss: 0.1268 | Test Acc: 0.9621
+testing noised: 872/900
+Test Loss: 0.1302 | Test Acc: 0.9565
+testing noised: 873/900
+Test Loss: 0.1336 | Test Acc: 0.9599
+testing noised: 874/900
+Test Loss: 0.1285 | Test Acc: 0.9613
+testing noised: 875/900
+Test Loss: 0.1301 | Test Acc: 0.9607
+testing noised: 876/900
+Test Loss: 0.1567 | Test Acc: 0.9521
+testing noised: 877/900
+Test Loss: 0.1227 | Test Acc: 0.9635
+testing noised: 878/900
+Test Loss: 0.1344 | Test Acc: 0.9604
+testing noised: 879/900
+Test Loss: 0.1404 | Test Acc: 0.9556
+testing noised: 880/900
+Test Loss: 0.1225 | Test Acc: 0.9610
+testing noised: 881/900
+Test Loss: 0.1105 | Test Acc: 0.9647
+testing noised: 882/900
+Test Loss: 0.1324 | Test Acc: 0.9567
+testing noised: 883/900
+Test Loss: 0.1574 | Test Acc: 0.9467
+testing noised: 884/900
+Test Loss: 0.1282 | Test Acc: 0.9600
+testing noised: 885/900
+Test Loss: 0.1504 | Test Acc: 0.9521
+testing noised: 886/900
+Test Loss: 0.1598 | Test Acc: 0.9500
+testing noised: 887/900
+Test Loss: 0.1118 | Test Acc: 0.9657
+testing noised: 888/900
+Test Loss: 0.1224 | Test Acc: 0.9617
+testing noised: 889/900
+Test Loss: 0.1219 | Test Acc: 0.9610
+testing noised: 890/900
+Test Loss: 0.1257 | Test Acc: 0.9603
+testing noised: 891/900
+Test Loss: 0.1352 | Test Acc: 0.9599
+testing noised: 892/900
+Test Loss: 0.1309 | Test Acc: 0.9615
+testing noised: 893/900
+Test Loss: 0.1600 | Test Acc: 0.9471
+testing noised: 894/900
+Test Loss: 0.1484 | Test Acc: 0.9493
+testing noised: 895/900
+Test Loss: 0.1517 | Test Acc: 0.9561
+testing noised: 896/900
+Test Loss: 0.1439 | Test Acc: 0.9557
+testing noised: 897/900
+Test Loss: 0.2097 | Test Acc: 0.9309
+testing noised: 898/900
+Test Loss: 0.1233 | Test Acc: 0.9636
+testing noised: 899/900
+Test Loss: 0.1501 | Test Acc: 0.9541
+testing noised: 900/900
+Test Loss: 0.1677 | Test Acc: 0.9448
+start computing IoU...
+finished Saving ./iou_mnist_mlp.xlsx!
+
+
+===============================================
+Summary: mnist_mlp
+
+num_checkpoint: 301
+num_generated: 200
+num_noised: 300x3
+original_acc_mean: 0.9688102990033223
+original_acc_max: 0.9743
+original_acc_min: 0.9555
+original_acc_std: 0.002239525692167742
+original_acc_median: 0.9692
+generated_acc_mean: 0.9755175
+generated_acc_max: 0.977
+generated_acc_min: 0.9736
+generated_acc_std: 0.0006920576204334447
+generated_acc_median: 0.9756
+noise=0.0010_acc_mean: 0.9704116666666668
+noise=0.0500_acc_mean: 0.9681376666666667
+noise=0.1500_acc_mean: 0.955095
+
+origin-origin: 0.48126371484153124
+generated-generated: 0.8002278259071252
+origin-generated: 0.5586135754674224
+origin-generated(max): 0.786798327795067
+
+noise_intensity=0.001
+noised-noised: 0.5734918435530463
+origin-noised: 0.47289929275346687
+origin-noised(max): 0.5768834341683788
+
+noise_intensity=0.05
+noised-noised: 0.525036496999733
+origin-noised: 0.4579864014323206
+origin-noised(max): 0.5558175620599087
+
+noise_intensity=0.15
+noised-noised: 0.3427494418278703
+origin-noised: 0.35876811400336317
+origin-noised(max): 0.43977316450719184
+
+==> start drawing..
+plot saved to plot_mnist_mlp.png

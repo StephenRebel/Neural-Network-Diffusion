@@ -1,0 +1,222 @@
+==> Loading configuration and VAE...
+==> Preparing data..
+Dataset length: 301
+input shape: torch.Size([7104])
+sequence length: 7104
+==> Building model..
+==> Building optimizer..
+==> Defining training..
+==> Building VAE model...
+==> Setting up dataset preprocessing...
+Dataset sequence length: 111
+Loading sparse checkpoint: ./dataset/full/mnist_mlp/checkpoint/0002_acc0.9624_seed0040_mnist_mlp.pth
+
+==> Original checkpoint sparsity:
+Sparsity in Linear(in_features=196, out_features=32, bias=True): 53.44%
+Sparsity in Linear(in_features=32, out_features=16, bias=True): 22.66%
+Sparsity in Linear(in_features=16, out_features=10, bias=True): 2.50%
+Total Sparsity: 50.00%
+
+==> Applying dataset preprocessing pipeline...
+After preprocess shape: torch.Size([111, 64])
+Flattened to batch format: torch.Size([1, 7104])
+
+==> Running VAE encode/decode...
+Reconstructed shape: torch.Size([1, 7104])
+
+=== Reconstruction Quality (token space) ===
+MSE Loss: 0.978266
+L1 Loss:  0.619542
+
+Saved reconstructed checkpoint to: ./dataset/full/mnist_mlp/checkpoint/ensemble_reconstructed_test.pth
+
+==> Reconstructed checkpoint sparsity:
+Sparsity in Linear(in_features=196, out_features=32, bias=True): 0.00%
+Sparsity in Linear(in_features=32, out_features=16, bias=True): 0.00%
+Sparsity in Linear(in_features=16, out_features=10, bias=True): 0.00%
+Total Sparsity: 0.00%
+
+=== Sparsity Comparison ===
+Original Global Sparsity:      50.00%
+Reconstructed Global Sparsity: 0.00%
+Change:                        -50.00%
+
+=== Per-Layer Sparsity Comparison ===
+  layer1.0: original 53.44% -> reconstructed 0.00% (change: -53.44%)
+  layer2.0: original 22.66% -> reconstructed 0.00% (change: -22.66%)
+  head.0: original 2.50% -> reconstructed 0.00% (change: -2.50%)
+
+=== Leakage at Original Zero Positions (multiple thresholds) ===
+
+  layer1.0 (3352 originally-zero positions):
+    max |leak| = 0.028013  mean |leak| = 0.004932  std = 0.006251
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 1.67%
+    still within 0.001 of zero: 14.41%
+    still within 0.01 of zero: 87.80%
+    still within 0.1 of zero: 100.00%
+
+  layer2.0 (116 originally-zero positions):
+    max |leak| = 0.036861  mean |leak| = 0.014824  std = 0.009931
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 0.86%
+    still within 0.001 of zero: 1.72%
+    still within 0.01 of zero: 34.48%
+    still within 0.1 of zero: 100.00%
+
+  head.0 (4 originally-zero positions):
+    max |leak| = 0.137501  mean |leak| = 0.086652  std = 0.063325
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 0.00%
+    still within 0.001 of zero: 0.00%
+    still within 0.01 of zero: 25.00%
+    still within 0.1 of zero: 50.00%
+
+=== Leakage at Original Zero Positions (all Linear layers combined) ===
+Total originally-zero positions: 3472
+max |leak| = 0.137501  mean |leak| = 0.005356  std = 0.007651
+  Still exact zero: 0.00%
+  Still within 0.0001: 1.64%
+  Still within 0.001: 13.97%
+  Still within 0.01: 85.94%
+  Still within 0.1: 99.94%
+
+==> VAE validation complete!
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/workspace$ python check_reconstruction.py full mnist_sparse_mlp
+==> Loading configuration and VAE...
+==> Preparing data..
+Dataset length: 301
+input shape: torch.Size([7104])
+sequence length: 7104
+==> Building model..
+==> Building optimizer..
+==> Defining training..
+==> Building VAE model...
+==> Setting up dataset preprocessing...
+Dataset sequence length: 111
+Loading sparse checkpoint: ./dataset/full/mnist_mlp/checkpoint/0002_acc0.9624_seed0040_mnist_mlp.pth
+
+==> Original checkpoint sparsity:
+Sparsity in Linear(in_features=196, out_features=32, bias=True): 53.44%
+Sparsity in Linear(in_features=32, out_features=16, bias=True): 22.66%
+Sparsity in Linear(in_features=16, out_features=10, bias=True): 2.50%
+Total Sparsity: 50.00%
+
+==> Applying dataset preprocessing pipeline...
+After preprocess shape: torch.Size([111, 64])
+Flattened to batch format: torch.Size([1, 7104])
+
+==> Running VAE encode/decode...
+Reconstructed shape: torch.Size([1, 7104])
+
+=== Reconstruction Quality (token space) ===
+MSE Loss: 0.441109
+L1 Loss:  0.448310
+
+Saved reconstructed checkpoint to: ./dataset/full/mnist_mlp/checkpoint/ensemble_reconstructed_test.pth
+
+==> Reconstructed checkpoint sparsity:
+Sparsity in Linear(in_features=196, out_features=32, bias=True): 0.00%
+Sparsity in Linear(in_features=32, out_features=16, bias=True): 0.00%
+Sparsity in Linear(in_features=16, out_features=10, bias=True): 0.00%
+Total Sparsity: 0.00%
+
+=== Sparsity Comparison ===
+Original Global Sparsity:      50.00%
+Reconstructed Global Sparsity: 0.00%
+Change:                        -50.00%
+
+=== Per-Layer Sparsity Comparison ===
+  layer1.0: original 53.44% -> reconstructed 0.00% (change: -53.44%)
+  layer2.0: original 22.66% -> reconstructed 0.00% (change: -22.66%)
+  head.0: original 2.50% -> reconstructed 0.00% (change: -2.50%)
+
+=== Leakage at Original Zero Positions (multiple thresholds) ===
+
+  layer1.0 (3352 originally-zero positions):
+    max |leak| = 0.042310  mean |leak| = 0.009159  std = 0.011458
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 0.72%
+    still within 0.001 of zero: 6.89%
+    still within 0.01 of zero: 61.19%
+    still within 0.1 of zero: 100.00%
+
+  layer2.0 (116 originally-zero positions):
+    max |leak| = 0.072514  mean |leak| = 0.018340  std = 0.021066
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 0.00%
+    still within 0.001 of zero: 3.45%
+    still within 0.01 of zero: 30.17%
+    still within 0.1 of zero: 100.00%
+
+  head.0 (4 originally-zero positions):
+    max |leak| = 0.115015  mean |leak| = 0.052096  std = 0.063384
+    still within 0 of zero: 0.00%
+    still within 0.0001 of zero: 0.00%
+    still within 0.001 of zero: 0.00%
+    still within 0.01 of zero: 0.00%
+    still within 0.1 of zero: 75.00%
+
+=== Leakage at Original Zero Positions (all Linear layers combined) ===
+Total originally-zero positions: 3472
+max |leak| = 0.115015  mean |leak| = 0.009515  std = 0.012214
+  Still exact zero: 0.00%
+  Still within 0.0001: 0.69%
+  Still within 0.001: 6.77%
+  Still within 0.01: 60.08%
+  Still within 0.1: 99.97%
+
+==> VAE validation complete!
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/workspace$ cd ../dataset/full/mnist_
+bash: cd: ../dataset/full/mnist_: No such file or directory
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/workspace$ cd ../dataset/full/mnist_mlp/
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ ls
+__pycache__               finetune.py         log.txt            pretrained_large.pth   train_logs
+checkpoint                finetune_sparse.py  log_large.txt      prune.py               train_plots
+checkpoint_dense          generated           log_sparse.txt     pruned_pretrained.pth  unbiased_comparison_report.json
+checkpoint_large          generated_dense     model.py           sparse_log.txt
+comparison_report.json    generated_large     performance.cache  test.py
+comparse_sparse_dense.py  generated_sparse    pretrained.pth     train.py
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+
+=== Unbiased Sparsity Report ===
+Shared Threshold: < 0.0001
+Dense Checkpoints Sparsity:  0.14%
+Sparse Checkpoints Sparsity: 2.61%
+Report saved to unbiased_comparison_report.json
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+Traceback (most recent call last):
+  File "/home/steph/Neural-Network-Diffusion/dataset/full/mnist_mlp/comparse_sparse_dense.py", line 97, in <module>
+    main()
+  File "/home/steph/Neural-Network-Diffusion/dataset/full/mnist_mlp/comparse_sparse_dense.py", line 69, in main
+    avg_sparse_sparse = sum(d['sparsity'] for d in sparse_data.values()) / len(sparse_data)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+
+=== Unbiased Sparsity Report ===
+Shared Threshold: < 0.001
+Dense Checkpoints Sparsity:  1.40%
+Sparse Checkpoints Sparsity: 23.74%
+Report saved to unbiased_comparison_report.json
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+
+=== Unbiased Sparsity Report ===
+Shared Threshold: < 0.001
+Dense Checkpoints Sparsity:  1.40%
+Sparse Checkpoints Sparsity: 23.74%
+Report saved to unbiased_comparison_report.json
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+
+=== Unbiased Sparsity Report ===
+Shared Threshold: < 0.01
+Dense Checkpoints Sparsity:  13.81%
+Sparse Checkpoints Sparsity: 50.01%
+Report saved to unbiased_comparison_report.json
+(Neural-Network-Diffusion) ~/Neural-Network-Diffusion/dataset/full/mnist_mlp$ python comparse_sparse_dense.py 
+
+=== Unbiased Sparsity Report ===
+Shared Threshold: < 0.1
+Dense Checkpoints Sparsity:  82.83%
+Sparse Checkpoints Sparsity: 83.10%
+Report saved to unbiased_comparison_report.json
